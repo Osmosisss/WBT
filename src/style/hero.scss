@@ -1,0 +1,29 @@
+.hero {
+  height: 720px;
+  width: 100vw;
+  display: block;
+}
+
+.hero-logo {
+  position: absolute;
+  height: 720px;
+  width: 100vw;
+  text-align: center;
+  padding: 250px 100px 100px 100px;
+}
+
+.hero-logo img {
+  position: relative;
+  height: 200px;
+  text-align: center;
+}
+
+.hero-gif {
+  position: relative;
+  text-align: center;
+}
+
+.hero-gif img {
+  height: 33px;
+  width: 33px;
+}

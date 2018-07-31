@@ -1,0 +1,24 @@
+.spacer {
+  height: 290px;
+  width: 100vw;
+  padding: 50px;
+  display: block;
+  color: white;
+  font-family: $font-primary;
+  line-height: 1.1471em;
+}
+
+.spacer-text {
+  height: auto;
+  padding: 50px;
+}
+.spacer h1 {
+  text-align: center;
+  font-size: 58px;
+  font-weight: bold;
+}
+
+.spacer h2 {
+  text-align: center;
+  font-size: 23px;
+}

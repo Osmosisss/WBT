@@ -1,0 +1,32 @@
+.team {
+  width: 100vw;
+  height: auto;
+  background-color: #ffffff;
+  font-family: $font-primary;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 47px 47px 47px 47px;
+}
+
+.profile {
+  text-align: center;
+}
+.profile img {
+  height: 222px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.profile h4 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.profile p {
+  color: gray;
+  font-weight: 200;
+}
