@@ -1,0 +1,20 @@
+@import "/variables";
+@import "/header-site";
+@import "/hero";
+@import "/techno";
+@import "/spacer";
+@import "/team";
+@import "/portfolio";
+@import "/header-mobile";
+
+body {
+  background: url("/assets/space1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.universal {
+  height: 100vh;
+  width: 100vw;
+}

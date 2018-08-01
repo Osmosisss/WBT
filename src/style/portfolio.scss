@@ -1,0 +1,104 @@
+.portfolio {
+  height: 795px;
+  width: 100vw;
+  background-color: transparent;
+  padding: 50px;
+  position: relative;
+  font-family: $font-primary;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+}
+
+.portfolio-container {
+  perspective: 800px;
+}
+
+.portfolio-container:hover .portfolio-box {
+  transform: rotateY(-180deg);
+}
+
+.portfolio-container:hover .front {
+  opacity: 0;
+}
+
+.portfolio-box {
+  position: relative;
+  width: auto;
+  height: 335.295px;
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.portfolio-box .box-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  backface-visibility: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transition: opacity 0s linear 0.5s;
+  background: #303030;
+}
+
+.front .box-logo {
+  text-transform: uppercase;
+  font-family: $font-primary;
+  display: inline-block;
+  color: #606060;
+}
+
+.front .box-logo span {
+  font-weight: 700;
+}
+
+.back {
+  z-index: -1;
+  text-transform: uppercase;
+  font-weight: 400;
+  background: #303030;
+  color: orange;
+  line-height: 16px;
+  transform: rotateY(-180deg);
+  transition: opacity 1s linear 0s;
+}
+
+.back h2 {
+  font-family: $font-primary;
+  margin: 0;
+  color: green;
+}
+
+.back h3 {
+  font-family: $font-primary;
+  margin: 0;
+  color: white;
+}
+
+.back .box-info {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  letter-spacing: 4px;
+  text-align: bottom;
+}
+
+.back .property {
+  color: yellow;
+}
+
+.back .prop-link {
+  text-decoration: none;
+  color: red;
+}
