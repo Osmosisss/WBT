@@ -102,7 +102,6 @@ class WBT extends Component {
            </div>
             
           {/* End of my thingy megigle */}
-
             <div className="hero-gif">
               <a href="#">
                 <img src="/assets/scroll.gif" alt="Scroll Down" />
@@ -115,7 +114,6 @@ class WBT extends Component {
         <div className="techno-grid">
           <div className="techno-box">
             <img src="assets/smartphone.png" />
-
             <h1>RESPONSIVE WEBDESIGN</h1>
             <p>
               We think in a cross-medial way, to be able to assist you in all

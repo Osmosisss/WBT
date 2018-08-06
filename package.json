@@ -58,13 +58,22 @@
     "html-webpack-plugin": "^2.29.0",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
+<<<<<<< HEAD
     "prop-types": "^15.5.10",
+=======
+    "prop-types": "^15.6.2",
+>>>>>>> 9f8639ff5c2146d7d2958116111b07be3fa1044d
     "react": "^16.2.0",
     "react-dom": "^16.0.0",
     "react-redux": "5.0.6",
     "react-router-dom": "^4.2.2",
+<<<<<<< HEAD
     "redux": "^3.7.2",
     "reactstrap": "^5.0.0-alpha.4",
+=======
+    "reactstrap": "^5.0.0-alpha.4",
+    "redux": "^3.7.2",
+>>>>>>> 9f8639ff5c2146d7d2958116111b07be3fa1044d
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
