@@ -3,10 +3,6 @@ import React, { Component } from "react";
 class Header extends Component {
   render() {
     return (
-<<<<<<< HEAD
-      
-=======
->>>>>>> 9f8639ff5c2146d7d2958116111b07be3fa1044d
       <div class="wrapper">
         <div class="menu-container">
           <div class="menu">
