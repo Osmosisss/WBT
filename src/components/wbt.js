@@ -74,8 +74,8 @@ class WBT extends Component {
             <p>
               Want to make your website more dynamic? Why not implement a video
               into your site! Movement has the power to add a sense of depth
-              into your website, also, makes the experience more memorable which
-              can and will separate you from the pack.
+              into your website, also, it makes the experience more memorable
+              which can and will separate you from the pack.
             </p>
           </div>
         </div>
