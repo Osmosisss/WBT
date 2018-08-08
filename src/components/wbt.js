@@ -97,7 +97,10 @@ class WBT extends Component {
            <span 
            className="txt-rotate"
            data-period="2000"
-           data-rotate='[ "Hello, this is Christian and Osmossis", "Greeting you from an automated JS program", "We hope to create a utopian experiance working with us!", "www.webbuilderteam.com", " " ]'></span>
+           data-rotate='[ "Hello, this is Christian and Osmosisss",
+            "Greeting you from an automated JS program", 
+            "We hope to create a utopian experience while working with you",
+             "www.webbuilderteam.com", " " ]'></span>
            </h1>
            </div>
             
