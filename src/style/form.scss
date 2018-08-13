@@ -1,4 +1,16 @@
-.form-wrapper {
-  height: 400px;
+.form {
   width: 100vw;
+  height: 800px;
+  background-color: white;
+}
+
+.form-grid {
+  float: left;
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-left: 100px;
+  padding-top: 100px;
 }
