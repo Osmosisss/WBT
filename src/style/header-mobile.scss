@@ -1,110 +1,134 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300");
-body {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/escheresque_ste.png");
-}
-
-.wrapper-list {
-  display: flex;
-  flex-direction: row;
-  padding-top: 70px;
-  padding-right: 335px;
-  margin: 0;
-  list-style: none;
-  width: 100px;
-  height: 100px;
-}
-
-a {
-  color: white;
-  justify-content: left;
-}
-
-.list:hover {
-  background-color: whitesmoke;
-}
-
-.wrapper {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.menu-container {
-  position: relative;
-  display: inline-block;
-}
-
-.menu-container:hover .menu-list {
-  display: block;
-}
-
-.menu-list {
-  padding-top: 50px;
-  position: absolute;
-  display: none;
-  width: 300px;
-  height: 120px;
-  background-color: black;
-  opacity: 0.7;
-  -webkit-transition: width 2s, height 4s;
-  -webkit-clip-path: polygon(56% 0, 100% 30%, 57% 100%, 13% 31%);
-  clip-path: polygon(56% 0, 100% 30%, 57% 100%, 13% 31%);
-}
-
-.menu-list:hover {
-  height: 400px;
-  background-image: url("/assets/logo.jpg");
-}
-
-.list {
-  cursor: pointer;
-  justify-content: left;
-  list-style: none;
-  color: #d3d3d3;
-  opacity: 1;
-  -webkit-transition: background-color 2s ease-out, font-size 20s;
-}
-
-.menu {
-  display: inline-block;
-  position: absolute;
-  width: 56px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 62px;
-  font-family: "Josefin Sans", sans-serif;
-  color: #fff;
-  cursor: pointer;
-}
-.menu::before,
-.menu::after {
-  position: absolute;
-  transition: 6.5s ease;
-  opacity: 0;
-  pointer-events: none;
-}
-.menu:before {
-  content: "M \00a0 \00a0 U";
-  top: -60px;
-  left: -100%;
-  width: 215px;
-}
-.menu:after {
-  content: "N";
-  top: 50px;
-  left: 96%;
-}
-.menu:hover::before,
-.menu:hover::after {
-  top: -19px;
-  opacity: 1;
-  transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
-}
-
-.bar {
-  width: 70%;
-  height: 3px;
-  background: white;
-  margin: 0 auto 18px;
-  transition: transform 0.4s ease;
-}
+@media only screen and (min-width: 450px){
+  .menu-list{
+    display: none;
+  }
+  }
+  @media only screen and (max-width: 450px){
+  
+  .wrapper-list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-right: 335px;
+    margin: 0;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+  }
+  
+  a {
+    color: white;
+    justify-content: left;
+  }
+  
+  .list:hover {
+    color:white;
+  }
+  
+  .wrapper {
+    width: 100vw;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 520px;
+  }
+  
+  .menu-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-container:hover .menu-list {
+    display: block;
+  }
+  
+  .menu-list {
+    display: none;
+    padding-top: 42px;
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(/assets/moon.png);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: width 2s, height 4s;
+    
+    -webkit-clip-path: circle(36.8% at 57% 49%);
+    clip-path: circle(36.8% at 57% 49%);
+    }
+  
+  .menu-list:hover {
+    height: 400px;
+    background: url(/assets/moon.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  .list {
+    margin-top: 20px;
+    cursor: pointer;
+    justify-content: left;
+    list-style: none;
+    color: black;
+    opacity: 1;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: background-color 2s ease-out, font-size 50s;
+    transition: background-color 2s ease-out, font-size 50s;
+  }
+  
+  .menu {
+    display: inline-block;
+    position: absolute;
+    width: 75px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 62px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+  .menu::before,
+  .menu::after {
+    position: absolute;
+    transition: 6.5s ease;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .menu:before {
+    content: "M \00a0 \00a0 \00a0 \00a0 \00a0 U";
+    top: -60px;
+    left: -90%;
+    width: 310px;
+  }
+  .menu:after {
+    content: " \00a0 N ";
+    top: 50px;
+    left: 96%;
+    width:100px;
+  }
+  .menu:hover::before,
+  .menu:hover::after {
+    top: -17px;
+    opacity: 1;
+    transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
+  }
+  
+  .bar {
+    
+    width: 70%;
+    height: 5px;
+    background: white;
+    margin: 0 auto 18px;
+    transition: transform 0.4s ease;
+  }
+  
+  .menu:hover .bar {
+    transform: rotate(-10deg);
+    }
+  
+  }
