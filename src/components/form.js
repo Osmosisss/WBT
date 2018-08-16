@@ -37,16 +37,16 @@ class Form extends Component {
         </form>
         <div className="form-box">
           <div className="box-grid">
-            <div className="box-one">
+            <div className="box">
               <p>yoyoyoyo</p>
             </div>
-            <div className="box-two">
+            <div className="box">
               <p>yoyoyoyo</p>
             </div>
-            <div className="box-three">
+            <div className="box">
               <p>yoyoyoyo</p>
             </div>
-            <div className="box-four">
+            <div className="box">
               <p>yoyoyoyo</p>
             </div>
           </div>

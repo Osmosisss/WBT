@@ -63,4 +63,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  padding-top: 18.4%;
+  text-align: center;
+}
+
+.box {
+  position: relative;
+  height: 200px;
+  margin-top: 30%;
 }
