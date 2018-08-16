@@ -14,7 +14,7 @@ class Header extends Component {
           <div class="wrapper-list">
             <ul class="menu-list">
               <li class="list">
-                <h1>Home</h1>
+                <h1>Homee</h1>
               </li>
               <li class="list">
                 <h1>Technologies</h1>

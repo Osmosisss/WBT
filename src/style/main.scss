@@ -8,6 +8,68 @@
 @import "/header-mobile";
 @import "/form";
 
+
+@media screen and (max-width: 600px) {
+
+  html {
+    height: 100vh;
+    width: 100vh;
+  }
+  
+  .hero-logo{
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
+  .magictext{
+    padding-top: 145px;
+    padding-right: 100px;
+    text-align:center;
+    width: 1500px;
+  }
+
+
+  body {
+    background: url("/assets/earth.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .header-links{
+    display: none;
+  }
+  
+  .universal {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .magictext .hardcoded {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  .magictext {
+    font-size: 3.5em;
+  }
+  .hardcoded {
+    color: white;
+    font-size: 2em;
+  }
+  
+  .txt-rotate span {
+    color: white;
+    font-family: $font-magictext;
+  }
+  
+  .magicspace {
+    padding-top: 10px;
+  }
+}
+
+
+
+@media screen and (min-width: 800px) {
 body {
   background: url("/assets/space1.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -39,4 +101,5 @@ body {
 
 .magicspace {
   padding-top: 10px;
+}
 }
