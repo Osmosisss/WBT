@@ -10,6 +10,25 @@
 
 
 @media screen and (max-width: 600px) {
+
+  html {
+    height: 100vh;
+    width: 100vh;
+  }
+  
+  .hero-logo{
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
+  .magictext{
+    padding-top: 145px;
+    padding-right: 100px;
+    text-align:center;
+    width: 1500px;
+  }
+
+
   body {
     background: url("/assets/earth.jpg") no-repeat center center fixed;
     background-size: cover;

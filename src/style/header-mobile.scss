@@ -1,15 +1,15 @@
-@media only screen and (min-width: 450px){
+@media only screen and (min-width: 600px){
   .menu-list{
     display: none;
   }
   }
-  @media only screen and (max-width: 450px){
+  @media only screen and (max-width: 600px){
   
   .wrapper-list {
     display: flex;
     flex-direction: row;
     padding-top: 70px;
-    padding-right: 335px;
+    padding-right: 485px;
     margin: 0;
     list-style: none;
     width: 100px;
@@ -28,12 +28,13 @@
   .wrapper {
     width: 100vw;
     text-align: center;
-    padding-top: 20px;
-    padding-left: 520px;
+    padding-top: 50px;
+    padding-left: 450px;
   }
   
   .menu-container {
     position: relative;
+    padding-left: 160px;
     display: inline-block;
   }
   
@@ -43,7 +44,7 @@
   
   .menu-list {
     display: none;
-    padding-top: 42px;
+    padding-top: 43px;
     position: absolute;
     width: 300px;
     height: 120px;
