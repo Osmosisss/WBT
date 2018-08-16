@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Form from "./form";
-import Header from "./header";
+// import Header from "./header";
 
 class WBT extends Component {
   render() {
@@ -64,12 +64,10 @@ class WBT extends Component {
     };
 
     return (
-     
-      
       <div className="universal">
         {/* header component */}
 
-        <Header/>
+        {/* <Header/> */}
 
         <div className="header">
           <div className="header-logo">

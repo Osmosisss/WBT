@@ -35,6 +35,22 @@ class Form extends Component {
             </button>
           </div>
         </form>
+        <div className="form-box">
+          <div className="box-grid">
+            <div className="box-one">
+              <p>yoyoyoyo</p>
+            </div>
+            <div className="box-two">
+              <p>yoyoyoyo</p>
+            </div>
+            <div className="box-three">
+              <p>yoyoyoyo</p>
+            </div>
+            <div className="box-four">
+              <p>yoyoyoyo</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

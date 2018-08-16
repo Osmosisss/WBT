@@ -3,6 +3,8 @@
   height: 800px;
   background-color: white;
   font-family: $font-primary;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .form-grid {
@@ -14,41 +16,31 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   padding-left: 100px;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 .form-name label {
   color: #7e8b8b;
   font-weight: 600;
-  padding-top: 10px;
 }
 
 .form-email label {
   color: #7e8b8b;
   font-weight: 600;
-  padding-top: 10px;
 }
 
 .form-phone label {
   color: #7e8b8b;
   font-weight: 600;
-  padding-top: 10px;
 }
 
 .form-comp label {
   color: #7e8b8b;
   font-weight: 600;
-  padding-top: 10px;
-  display: flex;
-  flex: wrap;
 }
 
 .form-comp input {
   padding-bottom: 10px;
-}
-
-.form-message textarea {
-  padding-top: 10px;
 }
 
 .form-grid button {
@@ -58,8 +50,17 @@
   width: 100px;
   height: 50px;
   border: 1px solid #dadddd;
+  margin-top: 20px;
+}
 
-  button:hover {
-    background-color: #dadddd;
-  }
+.form-box {
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
