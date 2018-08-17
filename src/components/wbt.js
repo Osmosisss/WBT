@@ -96,7 +96,7 @@ class WBT extends Component {
             {/* This is the magic text code */}
             <div className="space">
               <div className="magicspace" />
-              <h3 className="magictext">
+              <h1 className="magictext">
                 <span
                   className="txt-rotate"
                   data-period="2000"
@@ -105,7 +105,7 @@ class WBT extends Component {
             &quot;We hope to create a utopian experience while working with you&quot;,
              &quot;www.webbuilderteam.com&quot;, &quot; &quot; ]"
                 />
-              </h3>
+              </h1>
             </div>
           </div>
           {/* End of my thingy megigle */}
