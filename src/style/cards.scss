@@ -6,7 +6,7 @@ $dark-v1: #c84848;
 $text-color: #999;
 $cta: #00c5a7;
 // Styles
-
+@media screen and (max-width: 600px){
 .card-space{
   padding-top: 650px;
 }
@@ -233,4 +233,5 @@ $cta: #00c5a7;
       transition: background 0.5s ease;
     }
   }
+}
 }
