@@ -2,10 +2,8 @@ import React, { Component } from "react";
 import Form from "./form";
 // import Header from "./header";
 
-
 class WBT extends Component {
   render() {
-
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
       this.el = el;
@@ -94,10 +92,8 @@ class WBT extends Component {
         <div className="hero">
           <div className="hero-logo">
             <img src="/assets/wbt_logo.png" alt="WBT" />
-          
 
             {/* This is the magic text code */}
-
             <div className="space">
               <div className="magicspace" />
               <h3 className="magictext">
@@ -112,81 +108,101 @@ class WBT extends Component {
               </h3>
             </div>
           </div>
-            {/* End of my thingy megigle */}
-            
+          {/* End of my thingy megigle */}
 
-            {/* Desktop scroll arrow */}
-
-            <div className="hero-gif">
-              <a href="#">
-                <img src="/assets/arrow.gif" alt="Scroll Down" />
-              </a>
+          {/* Desktop scroll arrow */}
+          <div className="hero-gif">
+            <a href="#">
+              <img src="/assets/arrow.gif" alt="Scroll Down" />
+            </a>
           </div>
         </div>
 
-  {/* cards */}
+        {/* cards */}
 
-<div className="card-space">
+        <div className="card-space">
+          <div class="row">
+            <article class="col-xs-4">
+              <div class="cards">
+                <div className="image-box">
+                  <img src="assets/smartphone.png" />
+                </div>
+                <hr class="divider" />
+                <h2 class="title">RESPONSIVE WEBDESIGN</h2>
+                <div class="info">
+                  <hr class="divider" />
+                  <p class="lead">
+                    We think in a cross-medial way, to be able to assist you in
+                    all facets of media. We design and program our websites,
+                    incorporating the latest trends and techniques. We think for
+                    example of responsive sites to be able to serve your visitor
+                    on every platform, from mobile to PC.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div className="card-division" />
+          <div className="row1">
+            <article class="col-xs-41">
+              <div class="cards1">
+                <div className="image-box1">
+                  <img src="assets/computer.png" />
+                </div>
+                <hr class="divider1" />
+                <h2 class="title1">EFFECTIVE MARKETING</h2>
+                <div class="info1">
+                  <hr class="divider1" />
+                  <p class="lead1">
+                    Are you ready to see the next page and be amazed of what you
+                    can find?
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
 
-  <div class="row">
-    <article class="col-xs-4">
-      <div class="cards"> <div className="image-box"><img src="assets/smartphone.png"/></div>
-        <hr class="divider"/>
-        <h2 class="title">RESPONSIVE WEBDESIGN</h2>
-        <div class="info">
-          <hr class="divider"/>
-          <p class="lead">We think in a cross-medial way, to be able to assist you in all
-              facets of media. We design and program our websites, incorporating
-              the latest trends and techniques. We think for example of
-              responsive sites to be able to serve your visitor on every
-              platform, from mobile to PC.</p>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div className="card-division"></div>
-    <div className="row1">
-    <article class="col-xs-41">
-      <div class="cards1"><div className="image-box1"><img src="assets/computer.png"/></div>
-        <hr class="divider1"/>
-        <h2 class="title1">EFFECTIVE MARKETING</h2>
-        <div class="info1">
-          <hr class="divider1"/>
-          <p class="lead1">Are you ready to see the next page and be amazed of what you can find?</p>
-        </div>
-      </div>
-    </article>
-    </div>
+          <div className="card-division" />
+          <div className="row2">
+            <article class="col-xs-4">
+              <div class="cards">
+                <div className="image-box">
+                  <img src="assets/photo-camera.png" />
+                </div>
+                <hr class="divider" />
+                <h2 class="title">ORIGINAL PHOTOS</h2>
+                <div class="info">
+                  <hr class="divider" />
+                  <p class="lead">
+                    Are you ready to go to the next page and be amazed of what
+                    you can find?
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
 
-<div className="card-division"></div>
-    <div className="row2">
-    <article class="col-xs-4">
-      <div class="cards"><div className="image-box"><img src="assets/photo-camera.png"/></div>
-        <hr class="divider"/>
-        <h2 class="title">ORIGINAL PHOTOS</h2>
-        <div class="info">
-          <hr class="divider"/>
-          <p class="lead">Are you ready to go to the next page and be amazed of what you can find?</p>
+          <div className="card-division" />
+          <div className="row3">
+            <article class="col-xs-41">
+              <div class="cards1">
+                <div className="image-box">
+                  <img src="assets/camcorder.png" />
+                </div>
+                <hr class="divider1" />
+                <h2 class="title1">CUSTOM FILM</h2>
+                <div class="info1">
+                  <hr class="divider1" />
+                  <p class="lead1">
+                    Are you ready to go to the next page and be amazed of what
+                    you can find?
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
-    </article>
-    </div>
-
-<div className="card-division"></div>
-    <div className="row3">
-    <article class="col-xs-41">
-      <div class="cards1"><div className="image-box"><img src="assets/camcorder.png"/></div>
-        <hr class="divider1"/>
-        <h2 class="title1">CUSTOM FILM</h2>
-        <div class="info1">
-          <hr class="divider1"/>
-          <p class="lead1">Are you ready to go to the next page and be amazed of what you can find?</p>
-        </div>
-      </div>
-    </article>
-    </div>
-    </div>
-       {/* cards */}
+        {/* cards */}
 
         {/* technologies container */}
         <div className="techno-grid">
@@ -241,13 +257,10 @@ class WBT extends Component {
         </div>
         {/* about the team */}
         <div className="team">
+          {/* team photos project */}
 
           {/* team photos project */}
-           
-           
-
-          {/* team photos project */}
-           <div className="team-grid">
+          <div className="team-grid">
             <div className="profile">
               <img src="assets/selfie.jpg" alt="Christian Cosio" />
               <h4>CHRISTIAN COSIO</h4>
@@ -263,7 +276,7 @@ class WBT extends Component {
               <h4>DAN OTTESEN</h4>
               <p>Full-Stack Web Developer</p>
             </div>
-          </div> */}
+          </div>
         </div>
         {/* portfolio spacer */}
         <div className="spacer">

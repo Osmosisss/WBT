@@ -1,63 +1,64 @@
 @media screen and (max-width: 600px) {
+  .hero {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+  }
 
+  .hero-logo {
+    height: 290px;
+    width: 100vw;
+    text-align: center;
+  }
 
-.hero {
-  height: 100vh;
-  width: 100vw;
-  display: block;
-}
+  .hero-logo img {
+    height: 230px;
+    padding: 10px 0px 30px 10px;
+  }
 
-.hero-logo {
-  height: 290px;
-  width: 100vw;
-  text-align: center;
-}
+  .hero-gif {
+    position: relative;
+    text-align: center;
+    padding-top: 450px;
+    padding-left: 470px;
+  }
 
-.hero-logo img {
-  height: 230px;
-  padding: 10px 0px 30px 10px;
-  
-}
-
-.hero-gif {
-  position: relative;
-  text-align: center;
-  padding-top: 450px;
-  padding-left: 470px;
-}
-
-.hero-gif img {
-  height: 500px;
-  width: 500px;
-}
-
+  .hero-gif img {
+    height: 500px;
+    width: 500px;
+  }
 }
 
 // Desktop site breaking point
 @media screen and (min-width: 600px) {
+  .hero {
+    height: 720px;
+    width: 100vw;
+    display: block;
+  }
 
-.hero-logo {
-  height: 290px;
-  width: 100vw;
-  text-align: center;
-  padding-top: 80px;
-}
+  .hero-logo {
+    position: absolute;
+    height: 720px;
+    width: 100vw;
+    text-align: center;
+    padding: 180px 100px 10px 100px;
+  }
 
-.hero-logo img {
-  height: 230px;
-  padding: 10px 0px 60px 10px;
-  
-}
+  .hero-logo img {
+    position: relative;
+    height: 200px;
+    text-align: center;
+  }
 
-.hero-gif {
-  position: relative;
-  text-align: center;
-  padding-top: 170px;
-  padding-left: 70px;
-}
+  .hero-gif {
+    position: relativea;
+    text-align: center;
+    padding-top: 60px;
+  }
 
-.hero-gif img {
-  height: 200px;
-  width: 200px;
-}
+  .hero-gif img {
+    height: 50px;
+    width: 120px;
+  }
 }
