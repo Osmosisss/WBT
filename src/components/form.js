@@ -5,9 +5,9 @@ class Form extends Component {
     var map;
 
     function initialize() {
-      var myLatlng = new google.maps.LatLng(-25.363882, 131.044922);
+      var myLatlng = new google.maps.LatLng(40.500818, -111.422485);
       var mapOptions = {
-        zoom: 4,
+        zoom: 15,
         center: myLatlng
       };
       map = new google.maps.Map(
@@ -15,7 +15,7 @@ class Form extends Component {
         mapOptions
       );
 
-      var marker = new google.maps.Marker({
+      marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
         title: "Hello World!"
@@ -49,6 +49,7 @@ class Form extends Component {
                 name="message"
                 rows="4"
                 cols="90"
+                placeholder="Message"
               />
             </div>
             <button type="submit" className="btn btn-default">
