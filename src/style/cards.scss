@@ -12,11 +12,11 @@ $cta: #00c5a7;
 }
 
 .image-box{
-    position: center;
+    padding-left: 600px;
 }
 
 .row{
-    padding-left: 100px;
+    padding-left: 70px;
 }
 
 .image-box img{
@@ -30,7 +30,7 @@ $cta: #00c5a7;
   font-size: 5em;
 }
 .divider {
-  border-bottom: 1px solid $light;
+  border-bottom: 1px solid $text-color;
 }
 // Cards
 .cards {
@@ -38,7 +38,7 @@ $cta: #00c5a7;
   border-radius: 35px;
   cursor: pointer;
   height: 25em;
-  width: 30em;
+  width: 83em;
   padding: 1.5em;
   position: relative;
   transition: height 3.2s, box-shadow 0.5s;
@@ -127,15 +127,15 @@ $cta: #00c5a7;
 
 .row1{
    position: relative;
-   padding-left: 700px;    
+   padding-left: 70px;    
 }
 
 .row2{
-    padding-left: 100px;
+    padding-left: 70px;
 }
 
 .row3{
-    padding-left: 700px;
+    padding-left: 70px;
 }
 
 
@@ -150,7 +150,7 @@ $cta: #00c5a7;
   font-size: 5em;
 }
 .divider1 {
-  border-bottom: 1px solid $light;
+  border-bottom: 1px solid $text-color;
 }
 // Cards
 .cards1 {
@@ -158,15 +158,15 @@ $cta: #00c5a7;
   border-radius: 35px;
   cursor: pointer;
   height: 25em;
-  width: 30em;
+  width: 83em;
   padding: 1.5em;
   position: relative;
   transition: height 3.2s, width 2s ease, box-shadow 0.5s;
   
   &:hover {
     box-shadow: 0 0 2em #f4f1d6;
-    height: 80em;
-    width: 50em;
+    height: 60em;
+    
     transition: height 3s ease, width 2s ease, box-shadow 3.5s ease;
     
     .divider1 {

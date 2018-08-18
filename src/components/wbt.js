@@ -154,8 +154,10 @@ class WBT extends Component {
                 <div class="info1">
                   <hr class="divider1" />
                   <p class="lead1">
-                    Are you ready to see the next page and be amazed of what you
-                    can find?
+                  With our extensive knowledge on marketing, we device strategies
+              tailored to fit your company's vision and needs. By keeping up
+              with the up and coming technologies, we can assure the quality of
+              work put into circulating your presence, is strong and impactful.
                   </p>
                 </div>
               </div>
@@ -174,8 +176,10 @@ class WBT extends Component {
                 <div class="info">
                   <hr class="divider" />
                   <p class="lead">
-                    Are you ready to go to the next page and be amazed of what
-                    you can find?
+                  Being artists, we can provide unique and tasteful images, that
+              will allow your company to stand out in a competitive environment.
+              We shoot team portraits, office spaces, buildings, landscapes, you
+              name it. All in RAW format to maximize malleability.
                   </p>
                 </div>
               </div>
@@ -194,8 +198,10 @@ class WBT extends Component {
                 <div class="info1">
                   <hr class="divider1" />
                   <p class="lead1">
-                    Are you ready to go to the next page and be amazed of what
-                    you can find?
+                  Want to make your website more dynamic? Why not implement a video
+              into your site! Movement has the power to add a sense of depth
+              into your website, also, makes the experience more memorable which
+              can and will separate you from the pack.
                   </p>
                 </div>
               </div>
