@@ -100,7 +100,7 @@ class WBT extends Component {
                 <span
                   className="txt-rotate"
                   data-period="2000"
-                  data-rotate="[ &quot;Hello, this is Christian and Osmosisss&quot;,
+                  data-rotate="[ &quot;Hello, this is Christian and Oswaldo&quot;,
             &quot;Greeting you from an automated JS program&quot;, 
             &quot;We hope to create a utopian experience while working with you&quot;,
              &quot;www.webbuilderteam.com&quot;, &quot; &quot; ]"
@@ -288,121 +288,37 @@ class WBT extends Component {
         {/* portfolio showcase */}
         <div className="portfolio">
           <div className="portfolio-grid">
-            <div className="portfolio-container">
-              <div className="portfolio-box">
-                <div className="box-face front">
-                  <h1 className="box-logo">
-                    <span>Photography Portfolio</span>
-                  </h1>
-                </div>
-                <div className="box-face back">
-                  <h2 className="box-name">Kome Parnell</h2>
-                  <h3>Photographer</h3>
-                  <div className="box-info">
-                    <p>
-                      <span className="property">komeparnell.com: </span>
-                      <a href="#" className="prop-link">
-                        Click here to launch her website.
-                      </a>
-                    </p>
-                    <p>
-                      <span className="property">About: </span>
-                      <a>
-                        Kome is a photographer based out of San Diego,
-                        California. She specializes in weddings, couple shoots,
-                        and portraits.
-                      </a>
-                    </p>
-                  </div>
-                </div>
+            <div className="portfolio-box1">
+              <div className="portfolio-img">
+                <img src="assets/folio.jpg" alt="Portfolio" />
               </div>
             </div>
-            <div className="portfolio-container">
-              <div className="portfolio-box">
-                <div className="box-face front">
-                  <h1 className="box-logo">
-                    <span>Photography Portfolio</span>
-                  </h1>
-                </div>
-                <div className="box-face back">
-                  <h2 className="box-name">Kome Parnell</h2>
-                  <h3>Photographer</h3>
-                  <div className="box-info">
-                    <p>
-                      <span className="property">komeparnell.com: </span>
-                      <a href="#" className="prop-link">
-                        Click here to launch her website.
-                      </a>
-                    </p>
-                    <p>
-                      <span className="property">About: </span>
-                      <a>
-                        Kome is a photographer based out of San Diego,
-                        California. She specializes in weddings, couple shoots,
-                        and portraits.
-                      </a>
-                    </p>
-                  </div>
-                </div>
+            <div className="portfolio-box2">
+              <div className="portfolio-img">
+                <img src="assets/folio.jpg" alt="Portfolio" />
               </div>
             </div>
-            <div className="portfolio-container">
-              <div className="portfolio-box">
-                <div className="box-face front">
-                  <h1 className="box-logo">
-                    <span>Photography Portfolio</span>
-                  </h1>
-                </div>
-                <div className="box-face back">
-                  <h2 className="box-name">Kome Parnell</h2>
-                  <h3>Photographer</h3>
-                  <div className="box-info">
-                    <p>
-                      <span className="property">komeparnell.com: </span>
-                      <a href="#" className="prop-link">
-                        Click here to launch her website.
-                      </a>
-                    </p>
-                    <p>
-                      <span className="property">About: </span>
-                      <a>
-                        Kome is a photographer based out of San Diego,
-                        California. She specializes in weddings, couple shoots,
-                        and portraits.
-                      </a>
-                    </p>
-                  </div>
-                </div>
+            <div className="portfolio-title1">
+              <h3>Kome Parnel</h3>
+            </div>
+            <div className="portfolio-title2">
+              <h3>Trippy Roads</h3>
+            </div>
+            <div className="portfolio-box3">
+              <div className="portfolio-img">
+                <img src="assets/folio.jpg" alt="Portfolio" />
               </div>
             </div>
-            <div className="portfolio-container">
-              <div className="portfolio-box">
-                <div className="box-face front">
-                  <h1 className="box-logo">
-                    <span>Photography Portfolio</span>
-                  </h1>
-                </div>
-                <div className="box-face back">
-                  <h2 className="box-name">Kome Parnell</h2>
-                  <h3>Photographer</h3>
-                  <div className="box-info">
-                    <p>
-                      <span className="property">komeparnell.com: </span>
-                      <a href="#" className="prop-link">
-                        Click here to launch her website.
-                      </a>
-                    </p>
-                    <p>
-                      <span className="property">About: </span>
-                      <a>
-                        Kome is a photographer based out of San Diego,
-                        California. She specializes in weddings, couple shoots,
-                        and portraits.
-                      </a>
-                    </p>
-                  </div>
-                </div>
+            <div className="portfolio-box4">
+              <div className="portfolio-img">
+                <img src="assets/folio.jpg" alt="Portfolio" />
               </div>
+            </div>
+            <div className="portfolio-title3">
+              <h3>Finishing Touch</h3>
+            </div>
+            <div className="portfolio-title4">
+              <h3>Nike</h3>
             </div>
           </div>
         </div>
