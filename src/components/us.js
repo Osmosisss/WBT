@@ -5,23 +5,19 @@ class Us extends Component {
         
         return (
             <div>
-            <figure class="snip1104 red">
+            <figure class="fig red">
   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample33.jpg" alt="sample33" />
-  <figcaption>
-    <h2>Jean  <span> Myers</span></h2>
-  </figcaption>
-  <a href="#"></a>
+<figname>
+  <h2>Christian
+    <span>
+      Myers</span></h2>
+   </figname>
+   <a href="#"></a>
 </figure>
-<figure class="snip1104 blue hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample34.jpg" alt="sample34" />
-  <figcaption>
-    <h2>Lynn  <span> Reyes</span></h2>
-  </figcaption>
-  <a href="#"></a>
-</figure>
-<figure class="snip1104"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample35.jpg" alt="sample35" />
-  <figcaption>
-    <h2>Tracy <span> Logan</span></h2>
-  </figcaption>
+<figure class="fig"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample34.jpg" alt="sample34" />
+<figname>
+  <h2>Osmosisss <span> lavida loca</span></h2>
+</figname>
   <a href="#"></a>
 </figure>
             </div>
