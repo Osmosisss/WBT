@@ -332,10 +332,9 @@ class WBT extends Component {
         {/* contact form */}
         <Form />
         {/* footer spacer */}
-        <div className="spacer">
-          <div className="spacer-text">
-            <h1>THE END</h1>
-            <h2>PEACE</h2>
+        <div className="spacer-last">
+          <div className="spacer-text-last">
+            <p>&copy; WBT 2018 All rights reserved</p>
           </div>
         </div>
       </div>

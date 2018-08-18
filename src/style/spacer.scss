@@ -22,3 +22,22 @@
   text-align: center;
   font-size: 23px;
 }
+
+.spacer-last {
+  height: 150px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: white;
+  font-family: $font-primary;
+}
+
+.spacer-text-last {
+  color: gray;
+  font-weight: 200;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  text-align: center;
+  margin-top: 20px;
+}

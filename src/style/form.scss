@@ -14,9 +14,10 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  padding-left: 100px;
+  padding-left: 130px;
   padding-top: 100px;
   padding-bottom: 40px;
+  padding-right: 30px;
 }
 
 .form-name label {
@@ -58,4 +59,5 @@
   width: 555px;
   margin: 100px;
   left: 0px;
+  border: 1px solid #ced4da;
 }
