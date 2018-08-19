@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Form from "./form";
+import Us from "./us";
 // import Header from "./header";
 
 class WBT extends Component {
@@ -262,24 +263,52 @@ class WBT extends Component {
           </div>
         </div>
         {/* about the team */}
-        <div className="team">
-          {/* team photos project */}
-
+        <div className="team">        
           {/* team photos project */}
           <div className="team-grid">
-            <div className="profile">
-              <img src="assets/selfie.jpg" alt="Christian Cosio" />
+         {/* Fig Box Chris      */}
+         <div className="profile">
+          <div className="fig-box">
+            <figure class="fig yellow">
+               <img src="/assets/Chris.jpg" alt="Chris" />
+              <figname>
+              <h2>Chris
+              <span></span></h2>
+               </figname>
+               <a href="#"></a>
+              </figure>
+           </div>
               <h4>CHRISTIAN COSIO</h4>
               <p>Strategy Director & Founder</p>
             </div>
+            {/* Fig Box Osmosisss */}
             <div className="profile">
-              <img src="assets/selfie.jpg" alt="Osmosisss" />
-              <h4>OSWALDO AROLDO ORTIZ</h4>
+            <div className="fig-box">
+            <figure class="fig yellow">
+               <img src="/assets/selfie.jpg" alt="Chris" />
+              <figname>
+              <h2>Ozzy
+              <span></span></h2>
+               </figname>
+               <a href="#"></a>
+              </figure>
+           </div>
+            <h4>OSWALDO AROLDO ORTIZ</h4>
               <p>Creative Director & Founder</p>
             </div>
             <div className="profile">
-              <img src="assets/selfie.jpg" alt="Dan Otteson" />
-              <h4>DAN OTTESEN</h4>
+              {/* Fig Box Dan */}
+            <div className="fig-box">
+            <figure class="fig yellow">
+               <img src="/assets/dan.jpg" alt="Chris" />
+              <figname>
+              <h2>Dan 
+              <span></span></h2>
+               </figname>
+               <a href="#"></a>
+              </figure>
+           </div>
+           <h4>Dan Ottesen</h4>
               <p>Full-Stack Web Developer</p>
             </div>
           </div>

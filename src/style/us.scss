@@ -1,13 +1,14 @@
-/* included color classes..
-.red
-.blue
-.yellow
+/* Included color classes.. 
+	.red 
+	.blue 
+	.yellow 
 */
+.fig-box{
+display: flex;
+justify-content: center;
+}
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
-
-figure.fig{
-  font-family: 'Raleway', Arial, sans-serif;
+figure.fig {
   position: relative;
   float: left;
   overflow: hidden;
@@ -18,15 +19,19 @@ figure.fig{
   width: 100%;
   background: #000000;
   color: #ffffff;
-  text-align: center; 
-  box-shadow: 0 0 5px rhba(0, 0, 0, 0.15);
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 figure.fig * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+figure.fig img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.4;
 }
 
 figure.fig figname{
@@ -37,88 +42,75 @@ figure.fig figname{
   right: 0;
 }
 
-figure.fig h2{
+figure.fig h2 {
   position: absolute;
   left: 40px;
   right: 40px;
   display: inline-block;
   background: #000000;
-  -webkit-transform: skew(-10deg) rotate(-10deg)     trarnslate(0,-50%);
-  transform: skew(-10deg) rotate(-10deg)          translate(0, -50%);
- padding: 12px 5px;
-  margin: 0; 
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
   top: 50%;
   text-transform: uppercase;
   font-weight: 400;
 }
 
-figure.fig h2 span {
+figure.fig h2 span{
   font-weight: 800;
 }
 
 figure.fig:before {
-  height:100%;
+  height: 100%;
   width: 100%;
-  top: 0; 
-  left: 0; 
+  top: 0;
+  left: 0;
   content: '';
   background: #ffffff;
   position: absolute;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  -webkit-transform: rotate(110deg) translateY(-50%);
-  transform: rotate(110deg) translateY(-50%);
+  transition: all 0.3s ease-in-out;   
+  transform: rotate(110deg)
+  translateY(-50%);
 }
 
 figure.fig a{
-  left: 0; 
-  rigth: 0;
-  top: 0; 
-  bottom: 0; 
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   position: absolute;
   z-index: 1;
 }
 
-figure.fig.blue{
+figure.fig.blue {
   background: #123851;
 }
 
-figure.fig.blue h2{
+figure.fig.blue h2 {
   background: #0a212f;
 }
 
 figure.fig.red{
-  background: #582a14;
+  background: #581a14
 }
 
 figure.fig.red h2{
   background: #36100c;
 }
 
-figure.fig.yellow{
-  background: #7f5006;
-}
-
-figure.fig h2 {
-  background: #583804;
-}
-
-figure.fig:hover img, 
-figure.fig.hover img{
+figure.fig:hover img {
   opacity: 1;
-  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-figure.fig:hover h2,
-figure.fig.hover h2{
-  -webkit-transform: skew(-10deg) rotate(-10deg)
-translate(-150%, -50%);
-  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+figure.fig:hover h2 {
+  -webkit-transform: skew(-10deg)
+rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate (-10deg) translate(-150%, -50%)
 }
 
-figure.fig:hover:before,
-figure.fig.hover:before{
-  -webkit-transform: rotate(110deg) translateY(-150%);
-  transform: rotate(110deg) translateY(-150%);
+figure.fig:hover:before{
+
+  transform: rotate(110deg)
+    translateY(-150%);
 }
