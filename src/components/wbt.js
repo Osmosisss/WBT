@@ -154,10 +154,11 @@ class WBT extends Component {
                 <div class="info1">
                   <hr class="divider1" />
                   <p class="lead1">
-                  With our extensive knowledge on marketing, we device strategies
-              tailored to fit your company's vision and needs. By keeping up
-              with the up and coming technologies, we can assure the quality of
-              work put into circulating your presence, is strong and impactful.
+                    With our extensive knowledge on marketing, we device
+                    strategies tailored to fit your company's vision and needs.
+                    By keeping up with the up and coming technologies, we can
+                    assure the quality of work put into circulating your
+                    presence, is strong and impactful.
                   </p>
                 </div>
               </div>
@@ -176,10 +177,11 @@ class WBT extends Component {
                 <div class="info">
                   <hr class="divider" />
                   <p class="lead">
-                  Being artists, we can provide unique and tasteful images, that
-              will allow your company to stand out in a competitive environment.
-              We shoot team portraits, office spaces, buildings, landscapes, you
-              name it. All in RAW format to maximize malleability.
+                    Being artists, we can provide unique and tasteful images,
+                    that will allow your company to stand out in a competitive
+                    environment. We shoot team portraits, office spaces,
+                    buildings, landscapes, you name it. All in RAW format to
+                    maximize malleability.
                   </p>
                 </div>
               </div>
@@ -198,10 +200,10 @@ class WBT extends Component {
                 <div class="info1">
                   <hr class="divider1" />
                   <p class="lead1">
-                  Want to make your website more dynamic? Why not implement a video
-              into your site! Movement has the power to add a sense of depth
-              into your website, also, makes the experience more memorable which
-              can and will separate you from the pack.
+                    Want to make your website more dynamic? Why not implement a
+                    video into your site! Movement has the power to add a sense
+                    of depth into your website, also, makes the experience more
+                    memorable which can and will separate you from the pack.
                   </p>
                 </div>
               </div>
@@ -262,52 +264,58 @@ class WBT extends Component {
           </div>
         </div>
         {/* about the team */}
-        <div className="team">        
+        <div className="team">
           {/* team photos project */}
           <div className="team-grid">
-         {/* Fig Box Chris      */}
-         <div className="profile">
-          <div className="fig-box">
-            <figure class="fig yellow">
-               <img src="/assets/Chris.jpg" alt="Chris" />
-              <figname>
-              <h2>Chris
-              <span></span></h2>
-               </figname>
-               <a href="#"></a>
-              </figure>
-           </div>
+            {/* Fig Box Chris      */}
+            <div className="profile">
+              <div className="fig-box">
+                <figure class="fig yellow">
+                  <img src="/assets/Chris.jpg" alt="Chris" />
+                  <figname>
+                    <h2>
+                      Chris
+                      <span />
+                    </h2>
+                  </figname>
+                  <a href="#" />
+                </figure>
+              </div>
               <h4>CHRISTIAN COSIO</h4>
               <p>Strategy Director & Founder</p>
             </div>
             {/* Fig Box Osmosisss */}
             <div className="profile">
-            <div className="fig-box">
-            <figure class="fig yellow">
-               <img src="/assets/selfie.jpg" alt="Chris" />
-              <figname>
-              <h2>Ozzy
-              <span></span></h2>
-               </figname>
-               <a href="#"></a>
-              </figure>
-           </div>
-            <h4>OSWALDO AROLDO ORTIZ</h4>
+              <div className="fig-box">
+                <figure class="fig yellow">
+                  <img src="/assets/selfie.jpg" alt="Chris" />
+                  <figname>
+                    <h2>
+                      Ozzy
+                      <span />
+                    </h2>
+                  </figname>
+                  <a href="#" />
+                </figure>
+              </div>
+              <h4>OSWALDO AROLDO ORTIZ</h4>
               <p>Creative Director & Founder</p>
             </div>
             <div className="profile">
               {/* Fig Box Dan */}
-            <div className="fig-box">
-            <figure class="fig yellow">
-               <img src="/assets/dan.jpg" alt="Chris" />
-              <figname>
-              <h2>Dan 
-              <span></span></h2>
-               </figname>
-               <a href="#"></a>
-              </figure>
-           </div>
-           <h4>Dan Ottesen</h4>
+              <div className="fig-box">
+                <figure class="fig yellow">
+                  <img src="/assets/dan.jpg" alt="Chris" />
+                  <figname>
+                    <h2>
+                      Dan
+                      <span />
+                    </h2>
+                  </figname>
+                  <a href="#" />
+                </figure>
+              </div>
+              <h4>Dan Ottesen</h4>
               <p>Full-Stack Web Developer</p>
             </div>
           </div>

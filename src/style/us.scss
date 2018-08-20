@@ -3,20 +3,20 @@
 	.blue 
 	.yellow 
 */
-.fig-box{
-display: flex;
-justify-content: center;
+.fig-box {
+  display: flex;
+  justify-content: center;
 }
 
 figure.fig {
   position: relative;
-  float: left;
   overflow: hidden;
   margin: 10px 1%;
   min-width: 220px;
   max-width: 310px;
-  max-height: 220px;
+  max-height: 200px;
   width: 100%;
+  height: 100%;
   background: #000000;
   color: #ffffff;
   text-align: center;
@@ -29,12 +29,13 @@ figure.fig * {
 }
 
 figure.fig img {
-  max-width: 100%;
-  position: relative;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
   opacity: 0.4;
 }
 
-figure.fig figname{
+figure.fig figname {
   position: absolute;
   top: 0;
   left: 0;
@@ -56,7 +57,7 @@ figure.fig h2 {
   font-weight: 400;
 }
 
-figure.fig h2 span{
+figure.fig h2 span {
   font-weight: 800;
 }
 
@@ -65,15 +66,14 @@ figure.fig:before {
   width: 100%;
   top: 0;
   left: 0;
-  content: '';
+  content: "";
   background: #ffffff;
   position: absolute;
-  transition: all 0.3s ease-in-out;   
-  transform: rotate(110deg)
-  translateY(-50%);
+  transition: all 0.3s ease-in-out;
+  transform: rotate(110deg) translateY(-50%);
 }
 
-figure.fig a{
+figure.fig a {
   left: 0;
   right: 0;
   top: 0;
@@ -90,11 +90,11 @@ figure.fig.blue h2 {
   background: #0a212f;
 }
 
-figure.fig.red{
-  background: #581a14
+figure.fig.red {
+  background: #581a14;
 }
 
-figure.fig.red h2{
+figure.fig.red h2 {
   background: #36100c;
 }
 
@@ -104,13 +104,10 @@ figure.fig:hover img {
 }
 
 figure.fig:hover h2 {
-  -webkit-transform: skew(-10deg)
-rotate(-10deg) translate(-150%, -50%);
-  transform: skew(-10deg) rotate (-10deg) translate(-150%, -50%)
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate (-10deg) translate(-150%, -50%);
 }
 
-figure.fig:hover:before{
-
-  transform: rotate(110deg)
-    translateY(-150%);
+figure.fig:hover:before {
+  transform: rotate(110deg) translateY(-150%);
 }
