@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Form from "./form";
-import Us from "./us";
 // import Header from "./header";
 
 class WBT extends Component {

@@ -55,9 +55,11 @@
 }
 
 #map-canvas {
-  height: 75vh;
+  height: 74vh;
   width: 555px;
-  margin: 100px;
-  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   border: 1px solid #ced4da;
 }
