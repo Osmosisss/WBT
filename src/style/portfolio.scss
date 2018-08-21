@@ -12,7 +12,7 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5fr 2fr 5fr 2fr;
+  grid-template-rows: 5fr 2fr;
 }
 
 .portfolio-box1 {
@@ -34,6 +34,8 @@
 }
 
 .portfolio-title1 {
+  background-color: white;
+  opacity: 0.4;
   margin-left: auto;
   margin-right: auto;
   text-align: center;

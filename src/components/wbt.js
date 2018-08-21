@@ -346,22 +346,6 @@ class WBT extends Component {
             <div className="portfolio-title2">
               <h3>Trippy Roads</h3>
             </div>
-            <div className="portfolio-box3">
-              <div className="portfolio-img">
-                <img src="assets/folio.jpg" alt="Portfolio" />
-              </div>
-            </div>
-            <div className="portfolio-box4">
-              <div className="portfolio-img">
-                <img src="assets/folio.jpg" alt="Portfolio" />
-              </div>
-            </div>
-            <div className="portfolio-title3">
-              <h3>Finishing Touch</h3>
-            </div>
-            <div className="portfolio-title4">
-              <h3>Nike</h3>
-            </div>
           </div>
         </div>
         {/* contact spacer */}
