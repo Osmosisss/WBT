@@ -329,22 +329,22 @@ class WBT extends Component {
         </div>
         {/* portfolio showcase */}
         <div className="portfolio">
-          <div className="portfolio-grid">
-            <div className="portfolio-box1">
-              <div className="portfolio-img">
-                <img src="assets/folio.jpg" alt="Portfolio" />
+          <div class="portfolio-wrapper">
+            <div class="portfolio-media">
+              <div class="portfolio-layer">
+                <a href="www.komeparnell.com" target="_blank">
+                  <p>+ Kome Parnell</p>
+                </a>
               </div>
+              <img src="/assets/folio1.jpg" alt="" />
             </div>
-            <div className="portfolio-box2">
-              <div className="portfolio-img">
-                <img src="assets/folio.jpg" alt="Portfolio" />
+            <div class="portfolio-media">
+              <div class="portfolio-layer">
+                <a href="www.trippyroads.com" target="_blank">
+                  <p>+ Trippy Roads</p>
+                </a>
               </div>
-            </div>
-            <div className="portfolio-title1">
-              <h3>Kome Parnel</h3>
-            </div>
-            <div className="portfolio-title2">
-              <h3>Trippy Roads</h3>
+              <img src="/assets/folio1.jpg" alt="" />
             </div>
           </div>
         </div>

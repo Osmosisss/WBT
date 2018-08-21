@@ -10,30 +10,31 @@
 @import "/cards";
 @import "/us";
 
+*:focus {
+  outline: none;
+}
 
 @media screen and (max-width: 600px) {
-
   html {
     width: 100vh;
     height: 100vh;
   }
 
-  .techno-box{
-    display:none;
+  .techno-box {
+    display: none;
   }
 
-  .hero-logo{
+  .hero-logo {
     padding-left: 10px;
     padding-top: 20px;
   }
 
-  .magictext{
+  .magictext {
     padding-top: 170px;
     padding-right: 100px;
-    text-align:center;
+    text-align: center;
     width: 1500px;
   }
-
 
   body {
     background: url("/assets/earth.jpg") no-repeat center center fixed;
@@ -42,15 +43,15 @@
     width: 100vw;
   }
 
-  .header-links{
+  .header-links {
     display: none;
   }
-  
+
   .universal {
     height: 100vh;
     width: 100vw;
   }
-  
+
   .magictext .hardcoded {
     font-weight: 200;
     margin: 0.4em 0;
@@ -62,53 +63,51 @@
     color: white;
     font-size: 2em;
   }
-  
+
   .txt-rotate span {
     color: white;
     font-family: $font-magictext;
   }
-  
+
   .magicspace {
     padding-top: 10px;
   }
 }
 
-
-
 @media screen and (min-width: 800px) {
-body {
-  background: url("/assets/space1.jpg") no-repeat center center fixed;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
+  body {
+    background: url("/assets/space.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
 
-.col-xs-4{
-  display: none;
-}
-.col-xs-41{
-  display: none;
-}
-.universal {
-  height: 100vh;
-  width: 100vw;
-}
+  .col-xs-4 {
+    display: none;
+  }
+  .col-xs-41 {
+    display: none;
+  }
+  .universal {
+    height: 100vh;
+    width: 100vw;
+  }
 
-.magictext .hardcoded {
-  font-weight: 200;
-  margin: 0.4em 0;
-}
-.hardcoded {
-  color: white;
-  font-size: 2em;
-}
+  .magictext .hardcoded {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  .hardcoded {
+    color: white;
+    font-size: 2em;
+  }
 
-.txt-rotate span {
-  color: white;
-  font-family: $font-magictext;
-}
+  .txt-rotate span {
+    color: white;
+    font-family: $font-magictext;
+  }
 
-.magicspace {
-  padding-top: 10px;
-}
+  .magicspace {
+    padding-top: 10px;
+  }
 }

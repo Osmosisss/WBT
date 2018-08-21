@@ -22,22 +22,22 @@
 
 .form-name label {
   color: #7e8b8b;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .form-email label {
   color: #7e8b8b;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .form-phone label {
   color: #7e8b8b;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .form-comp label {
   color: #7e8b8b;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .form-comp input {
@@ -46,7 +46,7 @@
 
 .form-grid button {
   color: black;
-  font-weight: 600;
+  font-weight: 500;
   background-color: #f5f5f5;
   width: 100px;
   height: 50px;
@@ -62,4 +62,9 @@
   margin-top: auto;
   margin-bottom: auto;
   border: 1px solid #ced4da;
+}
+
+textarea:focus,
+input:focus {
+  outline: none !important;
 }
