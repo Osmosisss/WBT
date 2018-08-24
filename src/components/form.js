@@ -25,15 +25,15 @@ class Form extends Component {
     google.maps.event.addDomListener(window, "load", initialize);
     return (
       <div className="form">
-        <form className="form" action="/action_page.php">
+        <form className="form" action="/contact.php">
           <div className="form-grid">
             <div className="form-name">
               <label for="name">Name</label>
               <input type="name" className="form-control" id="name" />
             </div>
             <div className="form-email">
-              <label for="email">Email address</label>
-              <input type="email" className="form-control" id="email" />
+              <label for="mail">Email address</label>
+              <input type="mail" className="form-control" id="mail" />
             </div>
             <div className="form-phone">
               <label for="pwd">Phone</label>
