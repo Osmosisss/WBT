@@ -1,10 +1,9 @@
-@media only screen and (min-width: 600px){
-  .menu-list{
+@media only screen and (min-width: 600px) {
+  .menu-list {
     display: none;
   }
-  }
-  @media only screen and (max-width: 600px){
-  
+}
+@media only screen and (max-width: 600px) {
   .wrapper-list {
     display: flex;
     flex-direction: row;
@@ -15,33 +14,33 @@
     width: 100px;
     height: 100px;
   }
-  
+
   a {
     color: white;
     justify-content: left;
   }
-  
+
   .list:hover {
-    color:white;
+    color: white;
   }
-  
+
   .wrapper {
     width: 100vw;
     text-align: center;
     padding-top: 50px;
     padding-left: 450px;
   }
-  
+
   .menu-container {
     position: relative;
     padding-left: 160px;
     display: inline-block;
   }
-  
+
   .menu-container:hover .menu-list {
     display: block;
   }
-  
+
   .menu-list {
     display: none;
     padding-top: 43px;
@@ -56,18 +55,20 @@
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: width 2s, height 4s;
-    
+
+    -o-clip-path: circle(36.8% at 57% 49%);
+    -moz-clip-path: circle(36.8% at 57% 49%);
     -webkit-clip-path: circle(36.8% at 57% 49%);
     clip-path: circle(36.8% at 57% 49%);
-    }
-  
+  }
+
   .menu-list:hover {
     height: 400px;
     background: url(/assets/moon.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
   }
-  
+
   .list {
     margin-top: 20px;
     cursor: pointer;
@@ -80,7 +81,7 @@
     -webkit-transition: background-color 2s ease-out, font-size 50s;
     transition: background-color 2s ease-out, font-size 50s;
   }
-  
+
   .menu {
     display: inline-block;
     position: absolute;
@@ -110,26 +111,30 @@
     content: " \00a0 N ";
     top: 50px;
     left: 96%;
-    width:100px;
+    width: 100px;
   }
   .menu:hover::before,
   .menu:hover::after {
     top: -17px;
     opacity: 1;
+    -o-transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
+    -moz-transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
+    -webkit-transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
     transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
   }
-  
+
   .bar {
-    
     width: 70%;
     height: 5px;
     background: white;
     margin: 0 auto 18px;
+    -o-transition: transform 0.4s ease;
+    -moz-transition: transform 0.4s ease;
+    -webkit-transition: transform 0.4s ease;
     transition: transform 0.4s ease;
   }
-  
+
   .menu:hover .bar {
     transform: rotate(-10deg);
-    }
-  
   }
+}

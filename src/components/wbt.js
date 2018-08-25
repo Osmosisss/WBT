@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Form from "./form";
-// import Header from "./header";
+import $ from "jquery";
 
 class WBT extends Component {
   render() {
@@ -74,16 +74,16 @@ class WBT extends Component {
             {/* <img src="/assets/wbt_logo.png" alt="WBT Logo" /> */}
           </div>
           <div className="header-links">
-            <a className="links" href="#">
-              HOME
-            </a>
-            <a className="links" href="#">
+            <a className="links" href="#techno_link">
               TECHNOLOGY
             </a>
-            <a className="links" href="#">
+            <a className="links" href="#team_link">
+              TEAM
+            </a>
+            <a className="links" href="#pfolio_link">
               PORTFOLIO
             </a>
-            <a className="links" href="#">
+            <a className="links" href="#contact_link">
               CONTACT
             </a>
           </div>
@@ -112,7 +112,7 @@ class WBT extends Component {
 
           {/* Desktop scroll arrow */}
           <div className="hero-gif">
-            <a href="#">
+            <a id="techno_link">
               <img src="/assets/arrow.gif" alt="Scroll Down" />
             </a>
           </div>
@@ -121,17 +121,17 @@ class WBT extends Component {
         {/* cards */}
 
         <div className="card-space">
-          <div class="row">
-            <article class="col-xs-4">
-              <div class="cards">
+          <div className="row">
+            <article className="col-xs-4">
+              <div className="cards">
                 <div className="image-box">
                   <img src="assets/smartphone.png" />
                 </div>
-                <hr class="divider" />
-                <h2 class="title">RESPONSIVE WEBDESIGN</h2>
-                <div class="info">
-                  <hr class="divider" />
-                  <p class="lead">
+                <hr className="divider" />
+                <h2 className="title">RESPONSIVE WEBDESIGN</h2>
+                <div className="info">
+                  <hr className="divider" />
+                  <p className="lead">
                     We think in a cross-medial way, to be able to assist you in
                     all facets of media. We design and program our websites,
                     incorporating the latest trends and techniques. We think for
@@ -144,16 +144,16 @@ class WBT extends Component {
           </div>
           <div className="card-division" />
           <div className="row1">
-            <article class="col-xs-41">
-              <div class="cards1">
+            <article className="col-xs-41">
+              <div className="cards1">
                 <div className="image-box1">
                   <img src="assets/computer.png" />
                 </div>
-                <hr class="divider1" />
-                <h2 class="title1">EFFECTIVE MARKETING</h2>
-                <div class="info1">
-                  <hr class="divider1" />
-                  <p class="lead1">
+                <hr className="divider1" />
+                <h2 className="title1">EFFECTIVE MARKETING</h2>
+                <div className="info1">
+                  <hr className="divider1" />
+                  <p className="lead1">
                     With our extensive knowledge on marketing, we device
                     strategies tailored to fit your company's vision and needs.
                     By keeping up with the up and coming technologies, we can
@@ -167,16 +167,16 @@ class WBT extends Component {
 
           <div className="card-division" />
           <div className="row2">
-            <article class="col-xs-4">
-              <div class="cards">
+            <article className="col-xs-4">
+              <div className="cards">
                 <div className="image-box">
                   <img src="assets/photo-camera.png" />
                 </div>
-                <hr class="divider" />
-                <h2 class="title">ORIGINAL PHOTOS</h2>
-                <div class="info">
-                  <hr class="divider" />
-                  <p class="lead">
+                <hr className="divider" />
+                <h2 className="title">ORIGINAL PHOTOS</h2>
+                <div className="info">
+                  <hr className="divider" />
+                  <p className="lead">
                     Being artists, we can provide unique and tasteful images,
                     that will allow your company to stand out in a competitive
                     environment. We shoot team portraits, office spaces,
@@ -190,16 +190,16 @@ class WBT extends Component {
 
           <div className="card-division" />
           <div className="row3">
-            <article class="col-xs-41">
-              <div class="cards1">
+            <article className="col-xs-41">
+              <div className="cards1">
                 <div className="image-box">
                   <img src="assets/camcorder.png" />
                 </div>
-                <hr class="divider1" />
-                <h2 class="title1">CUSTOM FILM</h2>
-                <div class="info1">
-                  <hr class="divider1" />
-                  <p class="lead1">
+                <hr className="divider1" />
+                <h2 className="title1">CUSTOM FILM</h2>
+                <div className="info1">
+                  <hr className="divider1" />
+                  <p className="lead1">
                     Want to make your website more dynamic? Why not implement a
                     video into your site! Movement has the power to add a sense
                     of depth into your website, also, makes the experience more
@@ -257,7 +257,7 @@ class WBT extends Component {
           </div>
         </div>
         {/* about spacer */}
-        <div className="spacer">
+        <div className="spacer" id="team_link">
           <div className="spacer-text">
             <h1>TEAM</h1>
             <h2>MEET THE TEAM</h2>
@@ -270,7 +270,7 @@ class WBT extends Component {
             {/* Fig Box Chris      */}
             <div className="profile">
               <div className="fig-box">
-                <figure class="fig yellow">
+                <figure className="fig yellow">
                   <img src="/assets/Chris.jpg" alt="Chris" />
                   <figname>
                     <h2>
@@ -287,7 +287,7 @@ class WBT extends Component {
             {/* Fig Box Osmosisss */}
             <div className="profile">
               <div className="fig-box">
-                <figure class="fig yellow">
+                <figure className="fig yellow">
                   <img src="/assets/selfie.jpg" alt="Chris" />
                   <figname>
                     <h2>
@@ -304,7 +304,7 @@ class WBT extends Component {
             <div className="profile">
               {/* Fig Box Dan */}
               <div className="fig-box">
-                <figure class="fig yellow">
+                <figure className="fig yellow">
                   <img src="/assets/dan.jpg" alt="Chris" />
                   <figname>
                     <h2>
@@ -321,7 +321,7 @@ class WBT extends Component {
           </div>
         </div>
         {/* portfolio spacer */}
-        <div className="spacer">
+        <div className="spacer" id="pfolio_link">
           <div className="spacer-text">
             <h1>PORTFOLIO</h1>
             <h2>A SELECTION FROM OUR WORK</h2>
@@ -329,22 +329,22 @@ class WBT extends Component {
         </div>
         {/* portfolio showcase */}
         <div className="portfolio">
-          <div class="portfolio-wrapper">
-            <div class="portfolio-media">
-              <div class="portfolio-layer">
+          <div className="portfolio-wrapper">
+            <div className="portfolio-media">
+              <div className="portfolio-layer">
                 <a href="www.komeparnell.com" target="_blank">
                   <p>+ Kome Parnell</p>
                 </a>
               </div>
               <img src="/assets/folio1.jpg" alt="" />
             </div>
-            <div class="portfolio-media">
-              <div class="portfolio-layer">
+            <div className="portfolio-media">
+              <div className="portfolio-layer">
                 <a href="www.trippyroads.com" target="_blank">
                   <p>+ Trippy Roads</p>
                 </a>
               </div>
-              <img src="/assets/folio1.jpg" alt="" />
+              <img src="/assets/folio2.jpg" alt="" />
             </div>
           </div>
         </div>
