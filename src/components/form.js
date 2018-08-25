@@ -39,15 +39,11 @@ class Form extends Component {
               <label for="pwd">Phone</label>
               <input type="phone" className="form-control" id="phone" />
             </div>
-            <div className="form-comp">
-              <label for="pwd">Company Name (Optional)</label>
-              <input type="comp" className="form-control" id="comp" />
-            </div>
             <div className="form-message">
               <textarea
                 className="form-control"
                 name="message"
-                rows="4"
+                rows="5"
                 cols="90"
                 placeholder="Message"
               />
