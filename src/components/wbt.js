@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Form from "./form";
+
+
 // import Header from "./header";
 
 class WBT extends Component {
@@ -265,6 +267,9 @@ class WBT extends Component {
         </div>
         {/* about the team */}
         <div className="team">
+
+
+
           {/* team photos project */}
           <div className="team-grid">
             {/* Fig Box Chris      */}
@@ -278,7 +283,7 @@ class WBT extends Component {
                       <span />
                     </h2>
                   </figname>
-                  <a href="#" />
+                  <a/>
                 </figure>
               </div>
               <h4>CHRISTIAN COSIO</h4>
@@ -295,7 +300,7 @@ class WBT extends Component {
                       <span />
                     </h2>
                   </figname>
-                  <a href="#" />
+                  <a />
                 </figure>
               </div>
               <h4>OSWALDO AROLDO ORTIZ</h4>
@@ -312,7 +317,7 @@ class WBT extends Component {
                       <span />
                     </h2>
                   </figname>
-                  <a href="#" />
+                  <a />
                 </figure>
               </div>
               <h4>Dan Ottesen</h4>
@@ -326,9 +331,9 @@ class WBT extends Component {
             <h1>PORTFOLIO</h1>
             <h2>A SELECTION FROM OUR WORK</h2>
           </div>
-        </div>
+        </div> 
         {/* portfolio showcase */}
-        <div className="portfolio">
+         <div className="portfolio">
           <div class="portfolio-wrapper">
             <div class="portfolio-media">
               <div class="portfolio-layer">
