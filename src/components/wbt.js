@@ -120,7 +120,7 @@ class WBT extends Component {
 
         {/* cards */}
 
-        <div className="card-space">
+        {/* <div className="card-space">
           <div className="row">
             <article className="col-xs-4">
               <div className="cards">
@@ -209,7 +209,7 @@ class WBT extends Component {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
         {/* cards */}
 
         {/* technologies container */}
@@ -265,58 +265,24 @@ class WBT extends Component {
         </div>
         {/* about the team */}
         <div className="team">
-          {/* team photos project */}
-          <div className="team-grid">
-            {/* Fig Box Chris      */}
-            <div className="profile">
-              <div className="fig-box">
-                <figure className="fig yellow">
-                  <img src="/assets/Chris.jpg" alt="Chris" />
-                  <figname>
-                    <h2>
-                      Chris
-                      <span />
-                    </h2>
-                  </figname>
-                  <a href="#" />
-                </figure>
+          <div className="team-wrapper">
+            <div className="profile-box">
+              <div className="profile">
+                <p>Christian Cosio</p>
               </div>
-              <h4>CHRISTIAN COSIO</h4>
-              <p>Strategy Director & Founder</p>
+              <img src="/assets/Chris.jpg" alt="" />
             </div>
-            {/* Fig Box Osmosisss */}
-            <div className="profile">
-              <div className="fig-box">
-                <figure className="fig yellow">
-                  <img src="/assets/selfie.jpg" alt="Chris" />
-                  <figname>
-                    <h2>
-                      Ozzy
-                      <span />
-                    </h2>
-                  </figname>
-                  <a href="#" />
-                </figure>
+            <div className="profile-box">
+              <div className="profile">
+                <p>Oswaldo Aroldo Ortiz</p>
               </div>
-              <h4>OSWALDO AROLDO ORTIZ</h4>
-              <p>Creative Director & Founder</p>
+              <img src="/assets/selfie.jpg" alt="" />
             </div>
-            <div className="profile">
-              {/* Fig Box Dan */}
-              <div className="fig-box">
-                <figure className="fig yellow">
-                  <img src="/assets/dan.jpg" alt="Chris" />
-                  <figname>
-                    <h2>
-                      Dan
-                      <span />
-                    </h2>
-                  </figname>
-                  <a href="#" />
-                </figure>
+            <div className="profile-box">
+              <div className="profile">
+                <p>Dan Otteson</p>
               </div>
-              <h4>Dan Ottesen</h4>
-              <p>Full-Stack Web Developer</p>
+              <img src="/assets/dan.jpg" alt="" />
             </div>
           </div>
         </div>

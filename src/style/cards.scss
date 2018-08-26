@@ -9,14 +9,17 @@ $cta: #00c5a7;
 @media screen and (max-width: 600px) {
   .card-space {
     padding-top: 650px;
+    display: block;
   }
 
   .image-box {
     padding-left: 600px;
+    display: block;
   }
 
   .row {
     padding-left: 70px;
+    display: block;
   }
 
   .image-box img {

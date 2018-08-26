@@ -8,7 +8,8 @@
   justify-content: center;
 }
 
-figure.fig {
+#figure,
+.fig {
   position: relative;
   overflow: hidden;
   margin: 10px 1%;
@@ -24,19 +25,23 @@ figure.fig {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
-figure.fig * {
+#figure,
+.fig * {
   box-sizing: border-box;
   transition: all 0.4s ease-in-out;
 }
 
-figure.fig img {
+#figure,
+.fig img {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
   opacity: 0.22;
 }
 
-figure.fig figname {
+#figure,
+.fig,
+#figname {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,7 +49,8 @@ figure.fig figname {
   right: 0;
 }
 
-figure.fig h2 {
+#figure,
+.fig h2 {
   position: absolute;
   left: 40px;
   right: 40px;
@@ -61,11 +67,13 @@ figure.fig h2 {
   font-weight: 400;
 }
 
-figure.fig h2 span {
+#figure,
+.fig h2 span {
   font-weight: 800;
 }
 
-figure.fig:before {
+#figure,
+.fig:before {
   height: 100%;
   width: 100%;
   top: 0;
@@ -83,7 +91,8 @@ figure.fig:before {
   transform: rotate(110deg) translateY(-50%);
 }
 
-figure.fig a {
+#figure,
+.fig a {
   left: 0;
   right: 0;
   top: 0;
@@ -92,35 +101,42 @@ figure.fig a {
   z-index: 1;
 }
 
-figure.fig.blue {
+#figure,
+.fig.blue {
   background: #123851;
 }
 
-figure.fig.blue h2 {
+#figure,
+.fig.blue h2 {
   background: #0a212f;
 }
 
-figure.fig.red {
+#figure,
+.fig.red {
   background: #581a14;
 }
 
-figure.fig.red h2 {
+#figure,
+.fig.red h2 {
   background: #36100c;
 }
 
-figure.fig:hover img {
+#figure,
+.fig:hover img {
   opacity: 1;
   transform: scale(1.1);
 }
 
-figure.fig:hover h2 {
+#figure,
+.fig:hover h2 {
   -o-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
   -moz-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
   -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
   transform: skew(-10deg) rotate (-10deg) translate(-150%, -50%);
 }
 
-figure.fig:hover:before {
+#figure,
+.fig:hover:before {
   -o-transform: rotate(110deg) translateY(-150%);
   -moz-transform: rotate(110deg) translateY(-150%);
   -webkit-transform: rotate(110deg) translateY(-150%);

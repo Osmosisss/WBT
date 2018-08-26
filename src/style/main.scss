@@ -11,6 +11,12 @@
 @import "/cards";
 @import "/us";
 
+@media screen and (max-width: 600px) {
+  .app-wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+}
 *:focus {
   outline: none;
 }
@@ -18,15 +24,6 @@
   html {
     width: 100vh;
     height: 100vh;
-  }
-
-  .techno-box {
-    display: none;
-  }
-
-  .hero-logo {
-    padding-left: 10px;
-    padding-top: 20px;
   }
 
   body {
@@ -37,6 +34,11 @@
   }
 
   .header-links {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
     display: none;
   }
 

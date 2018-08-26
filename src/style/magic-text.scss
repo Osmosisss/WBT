@@ -1,30 +1,6 @@
 @media screen and (max-width: 600px) {
   .magictext {
-    padding-top: 170px;
-    padding-right: 100px;
-    text-align: center;
-    width: 1500px;
-  }
-
-  .magictext .hardcoded {
-    font-weight: 200;
-    margin: 0.4em 0;
-  }
-  .magictext {
-    font-size: 3.5em;
-  }
-  .hardcoded {
-    color: white;
-    font-size: 2em;
-  }
-
-  .txt-rotate span {
-    color: white;
-    font-family: $font-magictext;
-  }
-
-  .magicspace {
-    padding-top: 10px;
+    display: none;
   }
 }
 
