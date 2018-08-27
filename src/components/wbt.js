@@ -265,24 +265,16 @@ class WBT extends Component {
         </div>
         {/* about the team */}
         <div className="team">
-          <div className="team-wrapper">
-            <div className="profile-box">
-              <div className="profile">
-                <p>Christian Cosio</p>
-              </div>
-              <img src="/assets/Chris.jpg" alt="" />
+          <div className="team-grid">
+            <div className="profile">
+              <img src="assets/selfie.jpg" alt="Christian Cosio" />
+              <h4>CHRISTIAN COSIO</h4>
+              <p>Strategy Director & Founder</p>
             </div>
-            <div className="profile-box">
-              <div className="profile">
-                <p>Oswaldo Aroldo Ortiz</p>
-              </div>
-              <img src="/assets/selfie.jpg" alt="" />
-            </div>
-            <div className="profile-box">
-              <div className="profile">
-                <p>Dan Otteson</p>
-              </div>
-              <img src="/assets/dan.jpg" alt="" />
+            <div className="profile">
+              <img src="assets/selfie.jpg" alt="Osmosisss" />
+              <h4>OSWALDO AROLDO ORTIZ</h4>
+              <p>Creative Director & Founder</p>
             </div>
           </div>
         </div>
