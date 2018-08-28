@@ -7,24 +7,18 @@ class WBT extends Component {
 
 // Floating nav bar
 
-$(function() {
-
-  var $headerlinks = $(".header-links"),
-      $window       = $(window),
-      offset        = $sidebar.offset(),
-      topPadding    = 15;
-
- $window.scroll(function() {
-   if ($window.scrollTop() > offset.top){
-       $headerlinks.stop().animate({
-           margingTop: $window.scrollTop() - offset.top + topPadding
-       });
-   } else {
-     $headerlinks.stop().animate({
-       margingTop: 0
-     });
-   }
- });
+$(document).ready(function(){       
+  var scroll_start = 0;
+  var startchange = $('.techno-grid');
+  var offset = startchange.offset();
+  $(document).scroll(function() { 
+     scroll_start = $(this).scrollTop();
+     if(scroll_start > offset.top) {
+         $('.header').css('background-color', '#000000');
+      } else {
+         $('.header').css('background-color', 'transparent');
+      }
+  });
 });
 
 // Floating nav bar
@@ -94,9 +88,10 @@ $(function() {
 
         {/* <Header/> */}
 
-        <div className="header">
+        <nav className="header">
           <div className="header-logo1">
             {/* <img src="/assets/wbt_logo.png" alt="WBT Logo" /> */}
+
           </div>
           <div className="header-links">
             <a className="links" href="#techno_link">
@@ -112,7 +107,7 @@ $(function() {
               CONTACT
             </a>
           </div>
-        </div>
+        </nav>
 
         {/* Floating Nav */}
 
