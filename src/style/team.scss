@@ -51,6 +51,8 @@
 }
 .profile img {
   height: 333px;
+  border-radius: 3px;
+  border-bottom: 9px solid rgb(22, 22, 22);
 }
 
 .profile h4 {
@@ -61,5 +63,6 @@
 
 .profile p {
   color: gray;
+  font-size: 1.2rem;
   font-weight: 200;
 }

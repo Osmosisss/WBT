@@ -1,33 +1,16 @@
 import React, { Component } from "react";
 import Form from "./form";
-import $ from "jquery";
 
 class WBT extends Component {
   render() {
+    var navBar = document.getElementsByClassName("header");
 
-// Floating nav bar
+    console.log(navBar);
 
-$(function() {
-
-  var $headerlinks = $(".header-links"),
-      $window       = $(window),
-      offset        = $sidebar.offset(),
-      topPadding    = 15;
-
- $window.scroll(function() {
-   if ($window.scrollTop() > offset.top){
-       $headerlinks.stop().animate({
-           margingTop: $window.scrollTop() - offset.top + topPadding
-       });
-   } else {
-     $headerlinks.stop().animate({
-       margingTop: 0
-     });
-   }
- });
-});
-
-// Floating nav bar
+    navBar.addEventListener("click", e => {
+      console.log(e);
+    });
+    /*----*/
 
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
@@ -115,7 +98,6 @@ $(function() {
         </div>
 
         {/* Floating Nav */}
-
 
         {/* hero image style for logo showcase */}
         <div className="hero">
@@ -242,7 +224,7 @@ $(function() {
         {/* cards */}
 
         {/* technologies container */}
-        <div className="techno-grid">
+        <div className="techno-grid tech">
           <div className="techno-box">
             <img src="assets/smartphone.png" />
             <h1>RESPONSIVE WEBDESIGN</h1>
@@ -302,7 +284,7 @@ $(function() {
             </div>
             <div className="profile">
               <img src="assets/ozzy.jpg" alt="Osmosisss" />
-              <h4>OSWALD0 ORTIZ</h4>
+              <h4>OSWALDO ORTIZ</h4>
               <p>Creative Director & Founder</p>
             </div>
           </div>

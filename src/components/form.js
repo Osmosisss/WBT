@@ -13,7 +13,7 @@ class Form extends Component {
     }
 
     function initialize() {
-      var myLatlng = new google.maps.LatLng(32.71432096, -117.16077903);
+      var myLatlng = new google.maps.LatLng(32.71432096, -117.1972438);
       var mapOptions = {
         zoom: 11,
         center: myLatlng,

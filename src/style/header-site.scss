@@ -6,7 +6,7 @@
 
 .header {
   position: fixed;
-  opacity: .8;
+  background-color: white;
   top: 0;
   height: 100px;
   width: 100vw;
@@ -36,7 +36,7 @@
   width: auto;
   font-family: $font-primary;
   font-weight: 300;
-  color: white !important;
+  color: black !important;
   margin-top: 44px;
   font-size: 20px;
   text-align: center;
@@ -52,4 +52,8 @@
 /* mouse over link */
 a:hover {
   opacity: 1;
+}
+
+.appear {
+  background-color: black !important;
 }

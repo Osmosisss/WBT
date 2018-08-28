@@ -37,7 +37,7 @@
 // Desktop site breaking point
 @media screen and (min-width: 600px) {
   .hero {
-    height: 720px;
+    height: 790px;
     width: 100vw;
     display: block;
   }
@@ -51,19 +51,20 @@
   }
 
   .hero-logo img {
+    margin-top: 111px;
     position: relative;
-    height: 200px;
+    height: 222px;
     text-align: center;
   }
 
   .hero-gif {
     position: relative;
     text-align: center;
-    padding-top: 555px;
+    padding-top: 595px;
   }
 
   .hero-gif img {
-    height: 100px;
-    width: 120px;
+    height: 200px;
+    width: 220px;
   }
 }
