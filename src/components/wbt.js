@@ -4,6 +4,7 @@ import $ from "jquery";
 
 class WBT extends Component {
   render() {
+
 // Floating nav bar
 
 $(function() {
@@ -26,6 +27,7 @@ $(function() {
  });
 });
 
+// Floating nav bar
 
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
