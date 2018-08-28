@@ -296,13 +296,13 @@ $(function() {
         <div className="team">
           <div className="team-grid">
             <div className="profile">
-              <img src="assets/selfie.jpg" alt="Christian Cosio" />
+              <img src="assets/chris.jpg" alt="Christian Cosio" />
               <h4>CHRISTIAN COSIO</h4>
               <p>Strategy Director & Founder</p>
             </div>
             <div className="profile">
-              <img src="assets/selfie.jpg" alt="Osmosisss" />
-              <h4>OSWALDO AROLDO ORTIZ</h4>
+              <img src="assets/ozzy.jpg" alt="Osmosisss" />
+              <h4>OSWALD0 ORTIZ</h4>
               <p>Creative Director & Founder</p>
             </div>
           </div>
