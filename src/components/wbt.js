@@ -4,6 +4,29 @@ import $ from "jquery";
 
 class WBT extends Component {
   render() {
+// Floating nav bar
+
+$(function() {
+
+  var $headerlinks = $(".header-links"),
+      $window       = $(window),
+      offset        = $sidebar.offset(),
+      topPadding    = 15;
+
+ $window.scroll(function() {
+   if ($window.scrollTop() > offset.top){
+       $headerlinks.stop().animate({
+           margingTop: $window.scrollTop() - offset.top + topPadding
+       });
+   } else {
+     $headerlinks.stop().animate({
+       margingTop: 0
+     });
+   }
+ });
+});
+
+
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
       this.el = el;
@@ -70,7 +93,7 @@ class WBT extends Component {
         {/* <Header/> */}
 
         <div className="header">
-          <div className="header-logo">
+          <div className="header-logo1">
             {/* <img src="/assets/wbt_logo.png" alt="WBT Logo" /> */}
           </div>
           <div className="header-links">
@@ -88,6 +111,10 @@ class WBT extends Component {
             </a>
           </div>
         </div>
+
+        {/* Floating Nav */}
+
+
         {/* hero image style for logo showcase */}
         <div className="hero">
           <div className="hero-logo">
