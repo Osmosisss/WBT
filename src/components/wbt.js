@@ -3,13 +3,12 @@ import Form from "./form";
 
 class WBT extends Component {
   render() {
-    var navBar = document.getElementsByClassName("header");
+    // const navBar = document.getElementsByClassName("header")[0];
 
-    console.log(navBar);
+    // navBar.addEventListener("scroll", e => {
+    //   console.log(e);
+    // });
 
-    navBar.addEventListener("click", e => {
-      console.log(e);
-    });
     /*----*/
 
     var TxtRotate = function(el, toRotate, period) {

@@ -4,16 +4,8 @@ class Form extends Component {
   render() {
     var map;
 
-    function initMap() {
-      // Styles a map in night mode.
-      var map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 40.674, lng: -73.945 },
-        zoom: 12
-      });
-    }
-
     function initialize() {
-      var myLatlng = new google.maps.LatLng(32.71432096, -117.1972438);
+      var myLatlng = new google.maps.LatLng(32.71959, -117.165894);
       var mapOptions = {
         zoom: 11,
         center: myLatlng,
@@ -106,10 +98,9 @@ class Form extends Component {
         mapOptions
       );
 
-      marker = new google.maps.Marker({
+      var marker = new google.maps.Marker({
         position: myLatlng,
-        map: map,
-        title: "WBT"
+        map: map
       });
     }
 

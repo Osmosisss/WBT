@@ -5,6 +5,7 @@
 }
 
 .header {
+  z-index: 1000;
   position: fixed;
   background-color: white;
   top: 0;
@@ -52,8 +53,4 @@
 /* mouse over link */
 a:hover {
   opacity: 1;
-}
-
-.appear {
-  background-color: black !important;
 }
