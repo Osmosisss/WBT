@@ -14,9 +14,13 @@ $(document).ready(function(){
   $(document).scroll(function() { 
      scroll_start = $(this).scrollTop();
      if(scroll_start > offset.top) {
-         $('.header').css('background-color', '#000000', 'transition');
+         $('.header').css('background-color', '#000000',);
+         $('.header').css('height', '100px',);
+         $('.header-logo1 img').css('width', '200px',);
       } else {
          $('.header').css('background-color', 'transparent');
+         $('.header').css('height', '1px',);
+         $('.header-logo1 img').css('width', '0px',);
       }
   });
 });
@@ -91,7 +95,7 @@ $(document).ready(function(){
 
         <div className="header">
           <div className="header-logo1">
-            {/* <img src="/assets/wbt_logo.png" alt="WBT Logo" /> */}
+            <img src="/assets/wbt_logo.png" alt="WBT Logo" />
           </div>
           <div className="header-links">
             <a className="links" href="#techno_link">

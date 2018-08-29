@@ -5,6 +5,7 @@
 }
 
 .header {
+  transition: height 2.3s;
   z-index: 1000;
   position: fixed;
   opacity: .8;
@@ -15,16 +16,17 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.header-logo {
-  padding-left: 30px;
-  padding-top: 15px;
-  height: 100px;
-  width: auto;
+.header-logo1 {
+  padding-top: 7px;
+  height: 1px;
+  width: 250px;
   display: flex;
 }
-.header-logo img {
+.header-logo1 img {
+  transition: width 2.3s;
   height: 100px;
-  width: auto;
+  width: 0px;
+  opacity: 1 !important;
 }
 
 .header-links {
