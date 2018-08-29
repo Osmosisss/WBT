@@ -7,20 +7,25 @@ class WBT extends Component {
 
 // jQuery floating nav
 
-$(document).ready(function(){       
+$(document).ready(function(){   
+
   var scroll_start = 0;
-  var startchange = $('.techno-grid');
+  var startchange = $('.techno-img');
   var offset = startchange.offset();
+
   $(document).scroll(function() { 
      scroll_start = $(this).scrollTop();
+
      if(scroll_start > offset.top) {
-         $('.header').css('background-color', '#000000',);
-         $('.header').css('height', '100px',);
-         $('.header-logo1 img').css('width', '200px',);
+         $('.nav-wrap').css('background-color', '#000000',);
+         $('.nav-wrap').css('opacity', '.85',);
+         $('.header-logo1 img').css('opacity', '1',);
+        
       } else {
-         $('.header').css('background-color', 'transparent');
-         $('.header').css('height', '1px',);
-         $('.header-logo1 img').css('width', '0px',);
+         $('.nav-wrap').css('background-color', 'transparent');
+         $('.nav-wrap').css('opacity', '.0',);
+         $('.header-logo1 img').css('opacity', '.0',);
+       
       }
   });
 });
@@ -92,11 +97,14 @@ $(document).ready(function(){
         {/* header component */}
 
         {/* <Header/> */}
-
-        <div className="header">
+        
+        <div className="nav-wrap">
           <div className="header-logo1">
             <img src="/assets/wbt_logo.png" alt="WBT Logo" />
           </div>
+        </div>  
+
+        <div className="header">
           <div className="header-links">
             <a className="links" href="#techno_link">
               TECHNOLOGY
@@ -140,7 +148,7 @@ $(document).ready(function(){
           {/* Desktop scroll arrow */}
           <div className="hero-gif">
             <a id="techno_link">
-              <img src="/assets/arrow.gif" alt="Scroll Down" />
+              <img className="techno-img" src="/assets/arrow.gif" alt="Scroll Down" />
             </a>
           </div>
         </div>

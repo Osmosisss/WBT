@@ -4,11 +4,22 @@
   }
 }
 
-.header {
-  transition: height 2.3s;
+.nav-wrap{
+  -webkit-transition: all .7s ease-in-out;
   z-index: 1000;
   position: fixed;
-  opacity: .8;
+  opacity: 1;
+  top: 0;
+  height: 100px;
+  width: 100vw;
+
+}
+
+.header {
+  padding-left: 700px;
+  z-index: 1000;
+  position: fixed;
+  opacity: 1;
   top: 0;
   height: 100px;
   width: 100vw;
@@ -23,16 +34,19 @@
   display: flex;
 }
 .header-logo1 img {
-  transition: width 2.3s;
+  opacity: 0;
   height: 100px;
-  width: 0px;
-  opacity: 1 !important;
+  width: 200px;
 }
 
 .header-links {
   font-family: $font-primary;
   display: grid;
   grid-template-columns: auto auto auto auto;
+}
+
+.links{
+  padding-left:27px;
 }
 
 .header-links a {
