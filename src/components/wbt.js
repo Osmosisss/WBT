@@ -5,7 +5,7 @@ import $ from "jquery";
 class WBT extends Component {
   render() {
 
-// Floating nav bar
+// jQuery nav 
 
 $(document).ready(function(){       
   var scroll_start = 0;
@@ -21,7 +21,7 @@ $(document).ready(function(){
   });
 });
 
-// Floating nav bar
+// jQuery nav 
 
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
