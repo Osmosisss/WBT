@@ -1,15 +1,28 @@
 import React, { Component } from "react";
 import Form from "./form";
+import $ from "jquery";
 
 class WBT extends Component {
   render() {
-    // const navBar = document.getElementsByClassName("header")[0];
 
-    // navBar.addEventListener("scroll", e => {
-    //   console.log(e);
-    // });
+// jQuery floating nav
 
-    /*----*/
+$(document).ready(function(){       
+  var scroll_start = 0;
+  var startchange = $('.techno-grid');
+  var offset = startchange.offset();
+  $(document).scroll(function() { 
+     scroll_start = $(this).scrollTop();
+     if(scroll_start > offset.top) {
+         $('.header').css('background-color', '#000000', 'transition');
+      } else {
+         $('.header').css('background-color', 'transparent');
+      }
+  });
+});
+
+// jQuery floating nav
+
 
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
