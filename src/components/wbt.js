@@ -1,16 +1,9 @@
 import React, { Component } from "react";
 import Form from "./form";
+import $ from "jquery";
 
 class WBT extends Component {
   render() {
-    // const navBar = document.getElementsByClassName("header")[0];
-
-    // navBar.addEventListener("scroll", e => {
-    //   console.log(e);
-    // });
-
-    /*----*/
-
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
       this.el = el;
