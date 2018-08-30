@@ -6,19 +6,29 @@ class WBT extends Component {
   render() {
     // jQuery floating nav
 
+    // jQuery floating nav
+
     $(document).ready(function() {
       var scroll_start = 0;
-      var startchange = $(".techno-grid");
+      var startchange = $(".techno-img");
       var offset = startchange.offset();
+
       $(document).scroll(function() {
         scroll_start = $(this).scrollTop();
+
         if (scroll_start > offset.top) {
-          $(".header").css("background-color", "#000000");
+          $(".nav-wrap").css("background-color", "#000000");
+          $(".nav-wrap").css("opacity", ".85");
+          $(".header-logo1 img").css("opacity", "1");
         } else {
-          $(".header").css("background-color", "transparent");
+          $(".nav-wrap").css("background-color", "transparent");
+          $(".nav-wrap").css("opacity", ".0");
+          $(".header-logo1 img").css("opacity", ".0");
         }
       });
     });
+
+    // jQuery floating nav
 
     // jQuery floating nav
 
@@ -87,10 +97,13 @@ class WBT extends Component {
 
         {/* <Header/> */}
 
-        <div className="header">
+        <div className="nav-wrap">
           <div className="header-logo1">
-            {/* <img src="/assets/wbt_logo.png" alt="WBT Logo" /> */}
+            <img src="/assets/wbt_logo.png" alt="WBT Logo" />
           </div>
+        </div>
+
+        <div className="header">
           <div className="header-links">
             <a className="links" href="#techno_link">
               TECHNOLOGY
@@ -134,7 +147,11 @@ class WBT extends Component {
           {/* Desktop scroll arrow */}
           <div className="hero-gif">
             <a id="techno_link">
-              <img src="/assets/arrow.gif" alt="Scroll Down" />
+              <img
+                className="techno-img"
+                src="/assets/arrow.gif"
+                alt="Scroll Down"
+              />
             </a>
           </div>
         </div>
