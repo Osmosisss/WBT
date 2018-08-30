@@ -7,7 +7,7 @@
 .header {
   z-index: 1000;
   position: fixed;
-  background-color: white;
+  opacity: .8;
   top: 0;
   height: 100px;
   width: 100vw;
@@ -37,7 +37,7 @@
   width: auto;
   font-family: $font-primary;
   font-weight: 300;
-  color: black !important;
+  color:white !important;
   margin-top: 44px;
   font-size: 20px;
   text-align: center;
