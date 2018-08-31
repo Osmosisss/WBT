@@ -8,22 +8,23 @@ class WBT extends Component {
 
     $(document).ready(function() {
       var scroll_start = 0;
-      var startchange = $(".techno-img");
+      var startchange = $(".arrow-scroll");
       var offset = startchange.offset();
 
       $(document).scroll(function() {
         scroll_start = $(this).scrollTop();
 
         if (scroll_start > offset.top) {
-          $(".nav-wrap").css("background-color", "#000000");
-          $(".nav-wrap").css("opacity", ".85");
-          $(".header-logo1 img").css("opacity", "1");
-          $(".header-logo1 img").css("width", "150px");
-          $(".header-logo1 img").css("margin-left", "22px");
+          $(".header").css("background-color", "#000000");
+          $(".header").css("opacity", ".85");
+          $(".header").css("color", "white");
+          $(".header-logo img").css("opacity", "1");
+          $(".header-logo img").css("width", "150px");
+          $(".header-logo img").css("margin-left", "22px");
         } else {
-          $(".nav-wrap").css("background-color", "transparent");
-          $(".nav-wrap").css("opacity", ".0");
-          $(".header-logo1 img").css("opacity", ".0");
+          $(".header").css("color", "white");
+          $(".header").css("background-color", "transparent");
+          $(".header-logo img").css("opacity", ".0");
         }
       });
     });
@@ -93,13 +94,12 @@ class WBT extends Component {
       <div className="universal">
         {/* Header Section */}
 
-        <div className="nav-wrap">
-          <div className="header-logo1">
-            <img src="/assets/wbt_logo.png" alt="WBT Logo" />
-          </div>
-        </div>
-
         <div className="header">
+          <div className="nav-wrap">
+            <div className="header-logo">
+              <img src="/assets/wbt_logo.png" alt="WBT Logo" />
+            </div>
+          </div>
           <div className="header-links">
             <a className="links" href="#techno_link">
               TECHNOLOGY
@@ -142,7 +142,7 @@ class WBT extends Component {
           <div className="hero-gif">
             <a id="techno_link">
               <img
-                className="techno-img"
+                className="arrow-scroll"
                 src="/assets/arrow.gif"
                 alt="Scroll Down"
               />

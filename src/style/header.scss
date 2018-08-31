@@ -1,35 +1,26 @@
-@media only screen and (min-width: 1008px) {
-  .nav-wrap {
+@media only screen and (min-width: 1263px) {
+  .header {
     -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
     -webkit-transition: all 0.7s ease-in-out;
-    z-index: 1000;
     position: fixed;
     opacity: 1;
     top: 0;
     height: 77px;
     width: 100vw;
-  }
-
-  .header {
-    padding-left: 600px;
-    z-index: 1000;
-    position: fixed;
-    opacity: 1;
-    top: 0;
-    height: 100px;
-    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    z-index: 1000;
   }
 
-  .header-logo1 {
+  .header-logo {
     padding-top: 7px;
     height: 1px;
     width: 200px;
   }
-  .header-logo1 img {
+
+  .header-logo img {
     transition: all 3s ease-in-out;
     -webkit-transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
@@ -43,10 +34,13 @@
     font-family: $font-primary;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    z-index: 1000;
   }
 
   .links {
-    padding-left: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
   }
 
   .header-links a {
