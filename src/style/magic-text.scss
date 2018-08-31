@@ -18,8 +18,10 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .magictext {
-    display: none;
-  }
+// Medium Screen
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+}
+
+// Mobile Screen
+@media only screen and (max-width: 640px) {
 }
