@@ -6,8 +6,6 @@ class WBT extends Component {
   render() {
     // jQuery floating nav
 
-    // jQuery floating nav
-
     $(document).ready(function() {
       var scroll_start = 0;
       var startchange = $(".techno-img");
@@ -20,6 +18,8 @@ class WBT extends Component {
           $(".nav-wrap").css("background-color", "#000000");
           $(".nav-wrap").css("opacity", ".85");
           $(".header-logo1 img").css("opacity", "1");
+          $(".header-logo1 img").css("width", "150px");
+          $(".header-logo1 img").css("margin-left", "22px");
         } else {
           $(".nav-wrap").css("background-color", "transparent");
           $(".nav-wrap").css("opacity", ".0");
@@ -27,8 +27,6 @@ class WBT extends Component {
         }
       });
     });
-
-    // jQuery floating nav
 
     // jQuery floating nav
 
@@ -93,9 +91,7 @@ class WBT extends Component {
 
     return (
       <div className="universal">
-        {/* header component */}
-
-        {/* <Header/> */}
+        {/* Header Section */}
 
         <div className="nav-wrap">
           <div className="header-logo1">
@@ -120,14 +116,14 @@ class WBT extends Component {
           </div>
         </div>
 
-        {/* Floating Nav */}
+        {/* Hero Section */}
 
-        {/* hero image style for logo showcase */}
         <div className="hero">
           <div className="hero-logo">
             <img src="/assets/wbt_logo.png" alt="WBT" />
 
-            {/* This is the magic text code */}
+            {/* JS Text */}
+
             <div className="space">
               <div className="magicspace" />
               <h1 className="magictext">
@@ -142,9 +138,7 @@ class WBT extends Component {
               </h1>
             </div>
           </div>
-          {/* End of my thingy megigle */}
 
-          {/* Desktop scroll arrow */}
           <div className="hero-gif">
             <a id="techno_link">
               <img
@@ -156,101 +150,8 @@ class WBT extends Component {
           </div>
         </div>
 
-        {/* cards */}
+        {/* Technology Section */}
 
-        {/* <div className="card-space">
-          <div className="row">
-            <article className="col-xs-4">
-              <div className="cards">
-                <div className="image-box">
-                  <img src="assets/smartphone.png" />
-                </div>
-                <hr className="divider" />
-                <h2 className="title">RESPONSIVE WEBDESIGN</h2>
-                <div className="info">
-                  <hr className="divider" />
-                  <p className="lead">
-                    We think in a cross-medial way, to be able to assist you in
-                    all facets of media. We design and program our websites,
-                    incorporating the latest trends and techniques. We think for
-                    example of responsive sites to be able to serve your visitor
-                    on every platform, from mobile to PC.
-                  </p>
-                </div>
-              </div>
-            </article>
-          </div>
-          <div className="card-division" />
-          <div className="row1">
-            <article className="col-xs-41">
-              <div className="cards1">
-                <div className="image-box1">
-                  <img src="assets/computer.png" />
-                </div>
-                <hr className="divider1" />
-                <h2 className="title1">EFFECTIVE MARKETING</h2>
-                <div className="info1">
-                  <hr className="divider1" />
-                  <p className="lead1">
-                    With our extensive knowledge on marketing, we device
-                    strategies tailored to fit your company's vision and needs.
-                    By keeping up with the up and coming technologies, we can
-                    assure the quality of work put into circulating your
-                    presence, is strong and impactful.
-                  </p>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <div className="card-division" />
-          <div className="row2">
-            <article className="col-xs-4">
-              <div className="cards">
-                <div className="image-box">
-                  <img src="assets/photo-camera.png" />
-                </div>
-                <hr className="divider" />
-                <h2 className="title">ORIGINAL PHOTOS</h2>
-                <div className="info">
-                  <hr className="divider" />
-                  <p className="lead">
-                    Being artists, we can provide unique and tasteful images,
-                    that will allow your company to stand out in a competitive
-                    environment. We shoot team portraits, office spaces,
-                    buildings, landscapes, you name it. All in RAW format to
-                    maximize malleability.
-                  </p>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <div className="card-division" />
-          <div className="row3">
-            <article className="col-xs-41">
-              <div className="cards1">
-                <div className="image-box">
-                  <img src="assets/camcorder.png" />
-                </div>
-                <hr className="divider1" />
-                <h2 className="title1">CUSTOM FILM</h2>
-                <div className="info1">
-                  <hr className="divider1" />
-                  <p className="lead1">
-                    Want to make your website more dynamic? Why not implement a
-                    video into your site! Movement has the power to add a sense
-                    of depth into your website, also, makes the experience more
-                    memorable which can and will separate you from the pack.
-                  </p>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div> */}
-        {/* cards */}
-
-        {/* technologies container */}
         <div className="techno-grid tech">
           <div className="techno-box">
             <img src="assets/smartphone.png" />
@@ -294,14 +195,18 @@ class WBT extends Component {
             </p>
           </div>
         </div>
-        {/* about spacer */}
+
+        {/* Spacer */}
+
         <div className="spacer" id="team_link">
           <div className="spacer-text">
             <h1>TEAM</h1>
             <h2>MEET THE TEAM</h2>
           </div>
         </div>
-        {/* about the team */}
+
+        {/* Team Section */}
+
         <div className="team">
           <div className="team-grid">
             <div className="profile">
@@ -316,14 +221,18 @@ class WBT extends Component {
             </div>
           </div>
         </div>
-        {/* portfolio spacer */}
+
+        {/* Spacer */}
+
         <div className="spacer" id="pfolio_link">
           <div className="spacer-text">
             <h1>PORTFOLIO</h1>
             <h2>A SELECTION FROM OUR WORK</h2>
           </div>
         </div>
-        {/* portfolio showcase */}
+
+        {/* Portfolio Section */}
+
         <div className="portfolio">
           <div className="portfolio-wrapper">
             <div className="portfolio-media">
@@ -344,16 +253,21 @@ class WBT extends Component {
             </div>
           </div>
         </div>
-        {/* contact spacer */}
+
+        {/* Spacer */}
+
         <div className="spacer">
           <div className="spacer-text">
             <h1>CONTACT</h1>
             <h2>FEEL FREE TO REACH OUT</h2>
           </div>
         </div>
-        {/* contact form */}
+
+        {/* Contact Section */}
+
         <Form />
-        {/* footer spacer */}
+
+        {/* Spacer */}
         <div className="spacer-last">
           <div className="spacer-text-last">
             <p>&copy; WBT 2018 All rights reserved</p>
