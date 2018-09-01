@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Form from "./form";
 import $ from "jquery";
 import Mobile from "./mobile-wbt";
+import Meetourteam from "./meetourteam";
 
 class WBT extends Component {
   render() {
@@ -212,7 +213,9 @@ class WBT extends Component {
 
         {/* Team Section */}
 
-        <div className="team">
+         <Meetourteam />
+
+        {/* <div className="team">
           <div className="team-grid">
             <div className="profile">
               <img src="assets/chris.jpg" alt="Christian Cosio" />
@@ -225,7 +228,7 @@ class WBT extends Component {
               <p>Creative Director & Founder</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Spacer */}
 
