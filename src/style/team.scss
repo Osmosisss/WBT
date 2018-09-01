@@ -35,9 +35,12 @@
 }
 
 // Medium Screen
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
+@media only screen and (min-width: 641px) and (max-width: 1263px) {
 }
 
 // Mobile Screen
 @media only screen and (max-width: 640px) {
+  .team {
+    display: none;
+  }
 }

@@ -17,16 +17,36 @@
     width: 100vw;
   }
 
-  .universal {
+  .desktop-wrapper {
     height: 100vh;
     width: 100vw;
   }
 }
 
 // Medium Screen
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
+@media only screen and (min-width: 641px) and (max-width: 1263px) {
 }
 
 // Mobile Screen
 @media only screen and (max-width: 640px) {
+  .mobile-wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  }
+
+  body {
+    background: url("/assets/space2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: $font-primary;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }

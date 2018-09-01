@@ -52,6 +52,9 @@
     -webkit-transition: all 0.9s ease;
     transition: all 0.9s ease;
     p {
+      text-decoration: none;
+      color: black;
+
       -o-transition: all 0.9s ease;
       -moz-transition: all 0.9s ease;
       -webkit-transition: all 0.9s ease;
@@ -61,6 +64,10 @@
       -moz-transform: scale(0.1);
       -webkit-transform: scale(0.1);
       transform: scale(0.1);
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 
@@ -73,6 +80,9 @@
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     p {
+      text-decoration: none;
+      color: black;
+
       -o-transform: scale(1);
       -moz-transform: scale(1);
       -webkit-transform: scale(1);
@@ -87,9 +97,12 @@
 }
 
 // Medium Screen
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
+@media only screen and (min-width: 641px) and (max-width: 1263px) {
 }
 
 // Mobile Screen
 @media only screen and (max-width: 640px) {
+  .portfolio {
+    display: none;
+  }
 }

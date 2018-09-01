@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Form from "./form";
 import $ from "jquery";
+import Mobile from "./mobile-wbt";
 
 class WBT extends Component {
   render() {
-    // jQuery floating nav
+    // jQuery Navbar
 
     $(document).ready(function() {
       var scroll_start = 0;
@@ -29,8 +30,9 @@ class WBT extends Component {
       });
     });
 
-    // jQuery floating nav
+    // jQuery Navbar
 
+    // Magic Text
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
       this.el = el;
@@ -83,15 +85,18 @@ class WBT extends Component {
           new TxtRotate(elements[i], JSON.parse(toRotate), period);
         }
       }
-      // INJECT CSS
+
+      // Inject CSS
       var css = document.createElement("style");
       css.type = "text/css";
       css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #667 }";
       document.body.appendChild(css);
+
+      // Magic Text
     };
 
     return (
-      <div className="universal">
+      <div className="desktop-wrapper">
         {/* Header Section */}
 
         <div className="header">
@@ -273,6 +278,7 @@ class WBT extends Component {
             <p>&copy; WBT 2018 All rights reserved</p>
           </div>
         </div>
+        <Mobile />
       </div>
     );
   }
