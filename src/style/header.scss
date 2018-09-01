@@ -81,11 +81,11 @@
   }
 
   .mobile {
-    max-width: 640px;
+    z-index: 500;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    position: relative;
+    position: sticky;
     display: inline-block;
   }
 
@@ -118,12 +118,15 @@
     background: transparent;
   }
 
+  .mobile-nav {
+    padding-top: 70px;
+  }
+
   .mobile-one .mobile-nav {
     position: sticky;
     background-color: black;
-    max-width: 200px;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     transform: translate(-100%, 0);
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;

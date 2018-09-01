@@ -5,7 +5,7 @@ import Mobile from "./mobile-wbt";
 
 class WBT extends Component {
   render() {
-    // jQuery Navbar
+    // Nav Component
 
     $(document).ready(function() {
       var scroll_start = 0;
@@ -30,7 +30,7 @@ class WBT extends Component {
       });
     });
 
-    // jQuery Navbar
+    // Nav Component
 
     // Magic Text
     var TxtRotate = function(el, toRotate, period) {
