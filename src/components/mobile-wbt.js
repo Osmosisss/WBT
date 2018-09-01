@@ -39,6 +39,11 @@ class Mobile extends Component {
           <div className="mobile-nav">
             <ul>
               <li>
+                <a href="#">
+                  <img src="/assets/wbt_logo.png" alt="WBT Logo" />
+                </a>
+              </li>
+              <li>
                 <a href="#">Technology</a>
               </li>
               <li>
