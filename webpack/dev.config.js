@@ -65,8 +65,8 @@ module.exports = webpackMerge(webpackCommon, {
     }),
     new HtmlWebpackPlugin({
       inject: true,
-      template: path.resolve(__dirname, '../static/index.html'),
-      favicon: path.resolve(__dirname, '../static/favicon.ico')
+      template: path.resolve(__dirname, './index.html'),
+      favicon: path.resolve(__dirname, './favicon.ico')
     }),
     new HotModuleReplacementPlugin()
   ],
