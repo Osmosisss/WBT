@@ -78,7 +78,7 @@ class Mobile extends Component {
 
         <div className="mobile-techno">
           <div className="mobile-techno-grid">
-            <div className="mobile-tech">
+            <div id="mobile-tech-1" className="mobile-tech">
               <img src="assets/smartphone.png" />
               <h1>RESPONSIVE WEBDESIGN</h1>
               <p>
