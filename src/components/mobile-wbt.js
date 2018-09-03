@@ -126,12 +126,12 @@ class Mobile extends Component {
 
         {/* Spacer */}
 
-        {/* <div className="mobile-spacer">
+        <div className="mobile-spacer">
           <div className="mobile-spacer-content">
             <h1>TEAM</h1>
             <p>MEET THE TEAM</p>
           </div>
-        </div> */}
+        </div>
       </div>
     );
   }

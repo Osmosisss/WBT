@@ -56,4 +56,22 @@
   .spacer-text-last {
     display: none;
   }
+
+  .mobile-spacer {
+    position: relative;
+    height: 100px;
+    padding: 20px;
+  }
+
+  .mobile-spacer-content {
+    color: white;
+  }
+
+  .mobile-spacer-content h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .mobile-spacer-content p {
+  }
 }
