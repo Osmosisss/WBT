@@ -85,7 +85,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    position: sticky;
+    position: relative;
     display: inline-block;
   }
 
@@ -119,12 +119,14 @@
   }
 
   .mobile-nav {
+    height: 730px;
     padding-top: 70px;
     position: fixed;
+    overflow: hidden;
   }
 
   .mobile-one .mobile-nav {
-    position: fixed;
+    position: absolute;
     background-color: black;
     width: 100vw;
     height: 100vh;

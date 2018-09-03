@@ -147,4 +147,40 @@
   .team {
     display: none;
   }
+
+  .mobile-team {
+    width: 100vw;
+    height: 1100px;
+    background-color: #ffffff;
+    padding: 33px;
+  }
+
+  .mobile-team-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .mobile-team-content {
+    text-align: center;
+    font-family: $font-primary;
+  }
+
+  .mobile-team-content img {
+    width: 100%;
+  }
+
+  .mobile-team-content h4 {
+    font-weight: 300;
+    margin-top: 22px;
+    color: rgb(22, 22, 22);
+  }
+
+  .mobile-team-content p {
+    font-weight: 200;
+    color: rgb(36, 36, 36);
+  }
+
+  .team-content-1 {
+    margin-top: 26px;
+  }
 }

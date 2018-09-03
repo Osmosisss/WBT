@@ -132,6 +132,31 @@ class Mobile extends Component {
             <p>MEET THE TEAM</p>
           </div>
         </div>
+
+        {/* Team Section */}
+
+        <div className="mobile-team">
+          <div className="mobile-team-grid">
+            <div className="mobile-team-content team-content-1">
+              <img src="assets/chris.jpg" alt="sample33" />
+              <h4>Christian Cosio</h4>
+              <p>Founder & Sales Director</p>
+            </div>
+            <div className="mobile-team-content team-content-1">
+              <img src="assets/ozzy.jpg" alt="sample33" />
+              <h4>Oswaldo Ortiz</h4>
+              <p>Co-Founder & Lead Programmer</p>
+            </div>
+            <div className="mobile-team-content team-content-1">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample33.jpg"
+                alt="sample33"
+              />
+              <h4>Manny Medina</h4>
+              <p>Marketing Strategist</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
