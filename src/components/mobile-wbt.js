@@ -138,19 +138,19 @@ class Mobile extends Component {
         <div className="mobile-team">
           <div className="mobile-team-grid">
             <div className="mobile-team-content team-content-1">
-              <img src="assets/chris.jpg" alt="sample33" />
+              <img src="assets/chris.jpg" alt="Christian Cosio" />
               <h4>Christian Cosio</h4>
               <p>Founder & Sales Director</p>
             </div>
             <div className="mobile-team-content team-content-1">
-              <img src="assets/ozzy.jpg" alt="sample33" />
+              <img src="assets/ozzy.jpg" alt="Oswaldo Ortiz" />
               <h4>Oswaldo Ortiz</h4>
               <p>Co-Founder & Lead Programmer</p>
             </div>
             <div className="mobile-team-content team-content-1">
               <img
                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample33.jpg"
-                alt="sample33"
+                alt="Manny Medina"
               />
               <h4>Manny Medina</h4>
               <p>Marketing Strategist</p>
@@ -161,7 +161,7 @@ class Mobile extends Component {
         {/* Spacer */}
 
         <div className="mobile-spacer">
-          <div className="mobile-spacer-content">
+          <div id="mobile-spacer-port" className="mobile-spacer-content">
             <h1>PORTFOLIO</h1>
             <p>A SELECTION FROM OUR WORK</p>
           </div>
@@ -187,6 +187,15 @@ class Mobile extends Component {
               </div>
               <img src="/assets/folio2.jpg" alt="" />
             </div>
+          </div>
+        </div>
+
+        {/* Spacer */}
+
+        <div className="mobile-spacer">
+          <div className="mobile-spacer-content">
+            <h1>CONTACT</h1>
+            <p>FEEL FREE TO REACH OUT</p>
           </div>
         </div>
       </div>

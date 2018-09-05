@@ -118,7 +118,7 @@
   .mobile-portfolio-wrapper {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 33px;
     > * {
       margin: 1px;
     }
@@ -147,7 +147,7 @@
     justify-content: center;
     align-items: center;
     width: 10px;
-    height: 93%;
+    height: 100%;
     background: whitesmoke;
     color: #151e3f;
     -o-transition: all 0.9s ease;

@@ -59,16 +59,28 @@
 
   .mobile-spacer {
     position: relative;
-    height: 120px;
+    height: 150px;
     padding: 20px;
   }
 
   .mobile-spacer-content {
     color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 44px;
   }
 
   .mobile-spacer-content h1 {
     text-align: center;
     font-weight: bold;
+  }
+
+  .mobile-spacer-content p {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.4rem;
+  }
+  #mobile-spacer-port {
+    line-height: 25px;
   }
 }
