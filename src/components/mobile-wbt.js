@@ -157,6 +157,38 @@ class Mobile extends Component {
             </div>
           </div>
         </div>
+
+        {/* Spacer */}
+
+        <div className="mobile-spacer">
+          <div className="mobile-spacer-content">
+            <h1>PORTFOLIO</h1>
+            <p>A SELECTION FROM OUR WORK</p>
+          </div>
+        </div>
+
+        {/* Portfolio Section */}
+
+        <div className="mobile-portfolio">
+          <div className="mobile-portfolio-wrapper">
+            <div className="mobile-portfolio-media">
+              <div className="mobile-portfolio-layer">
+                <a href="www.komeparnell.com" target="_blank">
+                  <p>+ Kome Parnell</p>
+                </a>
+              </div>
+              <img src="/assets/folio1.jpg" alt="" />
+            </div>
+            <div className="mobile-portfolio-media">
+              <div className="mobile-portfolio-layer">
+                <a href="www.trippyroads.com" target="_blank">
+                  <p>+ Trippy Roads</p>
+                </a>
+              </div>
+              <img src="/assets/folio2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
