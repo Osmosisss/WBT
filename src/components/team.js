@@ -11,7 +11,6 @@ class Team extends Component {
               <div>
                 <h2>Christian</h2>
               </div>
-              <a href="#" />
             </div>
 
             <div id="figure" className="fig profile">
@@ -19,7 +18,6 @@ class Team extends Component {
               <div>
                 <h2>Oswaldo</h2>
               </div>
-              <a href="#" />
             </div>
           </div>
         </div>
