@@ -53,7 +53,7 @@
     opacity: 0.4;
   }
 
-  #figure.fig figname {
+  #figure .fig {
     position: absolute;
     top: 0;
     left: 0;
@@ -129,7 +129,7 @@
   #figure.fig:hover h2,
   #figure.fig.hover h2 {
     -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
-    transform: skew(-10deg) rotate (-10deg) translate(-150%, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
   }
 
   #figure.fig:hover:before,

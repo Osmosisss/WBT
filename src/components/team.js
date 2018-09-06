@@ -6,12 +6,12 @@ class Team extends Component {
       <div>
         <div className="team">
           <div className="team-grid">
-            <div id="figure" className="fig profile">
+            <div id="figure" onclick="" className="fig profile">
               <img src="assets/chris.jpg" alt="sample33" />
               <div>
                 <h2>
                   Christian
-                  <span />
+                  
                 </h2>
               </div>
               <a href="#" />
@@ -22,11 +22,12 @@ class Team extends Component {
               <div>
                 <h2>
                   Oswaldo
-                  <span />
+                  
                 </h2>
               </div>
               <a href="#" />
             </div>
+            
 
             <div id="figure" className="fig profile">
               <img
@@ -36,7 +37,7 @@ class Team extends Component {
               <div>
                 <h2>
                   Manny
-                  <span />
+                 
                 </h2>
               </div>
               <a href="#" />

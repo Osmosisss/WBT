@@ -213,7 +213,7 @@ class WBT extends Component {
 
         {/* Team Section */}
 
-        <Team />
+        <Team /> 
 
         {/* Spacer */}
 
