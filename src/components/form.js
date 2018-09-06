@@ -123,6 +123,7 @@ class Form extends Component {
             </div>
             <div className="form-message">
               <textarea
+                type="message"
                 className="form-control"
                 name="message"
                 rows="5"

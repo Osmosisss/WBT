@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MobileForm from "./mobile-form";
 import $ from "jquery";
 
 class Mobile extends Component {
@@ -196,6 +197,18 @@ class Mobile extends Component {
           <div className="mobile-spacer-content">
             <h1>CONTACT</h1>
             <p>FEEL FREE TO REACH OUT</p>
+          </div>
+        </div>
+
+        {/* Form Section */}
+
+        <MobileForm />
+
+        {/* Footer Section */}
+
+        <div className="mobile-spacer-last">
+          <div className="mobile-spacer-text-last">
+            <p>&copy; WBT 2018 All rights reserved</p>
           </div>
         </div>
       </div>

@@ -82,4 +82,46 @@
   .form {
     display: none;
   }
+
+  .mobile-form-case {
+    padding-top: 10px;
+  }
+  .mobile-form {
+    font-family: $font-primary;
+    background-color: #ffffff;
+    position: relative;
+    width: 100vw;
+    height: 566px;
+    padding: 10px;
+  }
+
+  .form-float-left {
+    margin-left: 5px;
+    text-align: left;
+    padding: 10px;
+  }
+
+  #mobile-name {
+    color: #7e8b8b;
+    font-weight: 500;
+  }
+
+  #mobile-mail {
+    color: #7e8b8b;
+    font-weight: 500;
+  }
+
+  #mobile-phone {
+    color: #7e8b8b;
+    font-weight: 500;
+  }
+
+  #mobile-comp {
+    color: #7e8b8b;
+    font-weight: 500;
+  }
+
+  .mobile-form-message {
+    padding: 15px;
+  }
 }

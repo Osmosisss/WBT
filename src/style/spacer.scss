@@ -83,4 +83,19 @@
   #mobile-spacer-port {
     line-height: 25px;
   }
+
+  .mobile-spacer-last {
+    position: relative;
+    height: 50px;
+    width: 100vw;
+    color: white;
+    font-family: $font-primary;
+  }
+
+  .mobile-spacer-text-last {
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
