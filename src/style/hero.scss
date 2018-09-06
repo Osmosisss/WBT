@@ -34,6 +34,37 @@
 
 // Medium Screen
 @media only screen and (min-width: 641px) and (max-width: 1263px) {
+  .hero {
+    height: 790px;
+    width: 100vw;
+    display: block;
+  }
+
+  .hero-logo {
+    position: absolute;
+    height: 720px;
+    width: 100vw;
+    text-align: center;
+    padding: 180px 100px 10px 100px;
+  }
+
+  .hero-logo img {
+    margin-top: 55px;
+    position: relative;
+    height: 222px;
+    text-align: center;
+  }
+
+  .hero-gif {
+    position: relative;
+    text-align: center;
+    padding-top: 525px;
+  }
+
+  .hero-gif img {
+    height: 200px;
+    width: 220px;
+  }
 }
 
 // Mobile Screen

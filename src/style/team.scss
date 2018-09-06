@@ -10,7 +10,7 @@
   .team-grid {
     justify-items: left, center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
   }
 
@@ -30,9 +30,9 @@
     position: relative;
     overflow: hidden;
     margin: 10px 1%;
-    min-width: 220px;
-    max-width: 310px;
-    max-height: 220px;
+    min-width: 320px;
+    max-width: 410px;
+    max-height: 320px;
     width: 100%;
     background: #000000;
     color: #ffffff;
@@ -141,6 +141,145 @@
 
 // Medium Screen
 @media only screen and (min-width: 641px) and (max-width: 1263px) {
+  .team {
+    width: 100vw;
+    height: auto;
+    background-color: #ffffff;
+    font-family: $font-primary;
+    padding: 44px;
+  }
+
+  .team-grid {
+    justify-items: left, center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .profile {
+    align-items: center;
+    text-align: center;
+    margin-left: 50%;
+  }
+
+  #figure {
+    justify-self: center;
+  }
+
+  #figure.fig {
+    align-items: center;
+    font-family: $font-primary;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 410px;
+    max-height: 320px;
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+
+  #figure.fig * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  #figure.fig img {
+    max-width: 100%;
+    position: relative;
+    opacity: 0.4;
+  }
+
+  #figure .fig {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  #figure.fig h2 {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    display: inline-block;
+    background: #000000;
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    padding: 12px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  #figure.fig h2 span {
+    font-weight: 800;
+  }
+
+  #figure.fig:before {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #ffffff;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: rotate(110deg) translateY(-50%);
+    transform: rotate(110deg) translateY(-50%);
+  }
+
+  #figure.fig a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #figure.fig.blue {
+    background: #123851;
+  }
+
+  #figure.fig.blue h2 {
+    background: #0a212f;
+  }
+
+  #figure.fig.red {
+    background: #581a14;
+  }
+
+  #figure.fig.red h2 {
+    background: #36100c;
+  }
+
+  #figure.fig:hover img,
+  #figure.fig.hover img {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  #figure.fig:hover h2,
+  #figure.fig.hover h2 {
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  }
+
+  #figure.fig:hover:before,
+  #figure.fig.hover:before {
+    -webkit-transform: rotate(110deg) translateY(-150%);
+    transform: rotate(110deg) translateY(-150%);
+  }
 }
 
 // Mobile Screen
@@ -151,27 +290,30 @@
 
   .mobile-team {
     width: 100vw;
-    height: 1200px;
+    height: 980px;
     background-color: #ffffff;
-    padding: 33px;
-    padding-top: 44px;
+    padding: 10%;
+    padding-top: 8%;
   }
 
   .mobile-team-grid {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
   }
 
   .mobile-team-content {
+    max-width: 100%;
+    max-height: 100%;
     text-align: center;
     font-family: $font-primary;
   }
 
   .mobile-team-content img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .mobile-team-content h4 {
@@ -182,6 +324,7 @@
 
   .mobile-team-content p {
     font-weight: 200;
+    margin-bottom: 22px;
     color: rgb(36, 36, 36);
   }
 

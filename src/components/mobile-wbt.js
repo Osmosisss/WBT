@@ -146,14 +146,6 @@ class Mobile extends Component {
               <h4>Oswaldo Ortiz</h4>
               <p>Co-Founder & Lead Programmer</p>
             </div>
-            <div className="mobile-team-content team-content-1">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample33.jpg"
-                alt="Manny Medina"
-              />
-              <h4>Manny Medina</h4>
-              <p>Marketing Strategist</p>
-            </div>
           </div>
         </div>
 
