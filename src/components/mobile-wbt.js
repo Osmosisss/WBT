@@ -42,21 +42,19 @@ class Mobile extends Component {
           <div className="mobile-nav">
             <ul>
               <li>
-                <a href="#">
-                  <img src="/assets/wbt_logo.png" alt="WBT Logo" />
-                </a>
+                <img src="/assets/wbt_logo.png" alt="WBT Logo" />
               </li>
               <li>
-                <a href="#">Technology</a>
+                <a href="#techno_link">Technology</a>
               </li>
               <li>
-                <a href="#">Team</a>
+                <a href="#team_link">Team</a>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <a href="#pfolio_link">Portfolio</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contact_link">Contact</a>
               </li>
             </ul>
           </div>
@@ -77,7 +75,7 @@ class Mobile extends Component {
 
         {/* Technology Section */}
 
-        <div className="mobile-techno">
+        <div className="mobile-techno" id="techno_link">
           <div className="mobile-techno-grid">
             <div id="mobile-tech-1" className="mobile-tech">
               <img src="assets/smartphone.png" />
@@ -136,7 +134,7 @@ class Mobile extends Component {
 
         {/* Team Section */}
 
-        <div className="mobile-team">
+        <div className="mobile-team" id="team_link">
           <div className="mobile-team-grid">
             <div className="mobile-team-content team-content-1">
               <img src="assets/chris.jpg" alt="Christian Cosio" />
@@ -170,7 +168,7 @@ class Mobile extends Component {
 
         {/* Portfolio Section */}
 
-        <div className="mobile-portfolio">
+        <div className="mobile-portfolio" id="pfolio_link">
           <div className="mobile-portfolio-wrapper">
             <div className="mobile-portfolio-media">
               <div className="mobile-portfolio-layer">

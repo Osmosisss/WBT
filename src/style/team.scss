@@ -151,12 +151,15 @@
 
   .mobile-team {
     width: 100vw;
-    height: 1144px;
+    height: 1200px;
     background-color: #ffffff;
     padding: 33px;
+    padding-top: 44px;
   }
 
   .mobile-team-grid {
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
