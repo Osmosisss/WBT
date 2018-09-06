@@ -14,10 +14,9 @@ class Team extends Component {
                   
                 </h2>
               </div>
-              <a href="#" />
             </div>
 
-            <div id="figure" className="fig profile">
+            <div id="figure" onclick="" className="fig profile">
               <img src="assets/ozzy.jpg" alt="sample33" />
               <div>
                 <h2>
@@ -25,11 +24,10 @@ class Team extends Component {
                   
                 </h2>
               </div>
-              <a href="#" />
             </div>
             
 
-            <div id="figure" className="fig profile">
+            <div id="figure" onclick="" className="fig profile">
               <img
                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample33.jpg"
                 alt="sample33"
@@ -40,7 +38,6 @@ class Team extends Component {
                  
                 </h2>
               </div>
-              <a href="#" />
             </div>
           </div>
         </div>
