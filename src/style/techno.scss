@@ -71,7 +71,7 @@
   .mobile-techno {
     background-color: #ffffff;
     width: 100vw;
-    height: 2220px;
+    height: 2100px;
     position: relative;
   }
 
@@ -89,11 +89,15 @@
   }
 
   .mobile-tech {
+    padding: 20px;
     width: 100vw;
-    padding: 47px;
     padding-top: 47px;
     font-family: $font-primary;
     line-height: 30px;
+  }
+
+  .mobile-tech p {
+    text-align: left;
   }
 
   .mobile-tech img {

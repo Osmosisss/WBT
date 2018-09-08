@@ -5,7 +5,6 @@ import $ from "jquery";
 class Mobile extends Component {
   render() {
     //Nav Component
-
     $(document).ready(function() {
       var menu = "close";
       $(".mobile-one .menu-toggle, .mobile-three .menu-toggle").click(
@@ -186,7 +185,7 @@ class Mobile extends Component {
         <div className="mobile-spacer">
           <div className="mobile-spacer-content">
             <h1>CONTACT</h1>
-            <p>FEEL FREE TO REACH OUT</p>
+            <p>REACH OUT</p>
           </div>
         </div>
 
