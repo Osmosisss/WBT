@@ -44,16 +44,16 @@ class Mobile extends Component {
                 <img src="/assets/wbt_logo.png" alt="WBT Logo" />
               </li>
               <li>
-                <a href="#techno_link">Technology</a>
+                <a href="#technology">Technology</a>
               </li>
               <li>
-                <a href="#team_link">Team</a>
+                <a href="#team">Team</a>
               </li>
               <li>
-                <a href="#pfolio_link">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="#contact_link">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ class Mobile extends Component {
 
         {/* Technology Section */}
 
-        <div className="mobile-techno" id="techno_link">
+        <div className="mobile-techno" id="technology">
           <div className="mobile-techno-grid">
             <div id="mobile-tech-1" className="mobile-tech">
               <img src="assets/smartphone.png" />
@@ -124,7 +124,7 @@ class Mobile extends Component {
 
         {/* Spacer */}
 
-        <div className="mobile-spacer">
+        <div className="mobile-spacer" id="team">
           <div className="mobile-spacer-content">
             <h1>TEAM</h1>
             <p>MEET THE TEAM</p>
@@ -133,7 +133,7 @@ class Mobile extends Component {
 
         {/* Team Section */}
 
-        <div className="mobile-team" id="team_link">
+        <div className="mobile-team">
           <div className="mobile-team-grid">
             <div className="mobile-team-content team-content-1">
               <img src="assets/chris.jpg" alt="Christian Cosio" />
@@ -150,7 +150,7 @@ class Mobile extends Component {
 
         {/* Spacer */}
 
-        <div className="mobile-spacer">
+        <div className="mobile-spacer" id="portfolio">
           <div id="mobile-spacer-port" className="mobile-spacer-content">
             <h1>PORTFOLIO</h1>
             <p>A SELECTION FROM OUR WORK</p>
@@ -159,7 +159,7 @@ class Mobile extends Component {
 
         {/* Portfolio Section */}
 
-        <div className="mobile-portfolio" id="pfolio_link">
+        <div className="mobile-portfolio">
           <div className="mobile-portfolio-wrapper">
             <div className="mobile-portfolio-media">
               <div className="mobile-portfolio-layer">
@@ -182,7 +182,7 @@ class Mobile extends Component {
 
         {/* Spacer */}
 
-        <div className="mobile-spacer">
+        <div className="mobile-spacer" id="contact">
           <div className="mobile-spacer-content">
             <h1>CONTACT</h1>
             <p>REACH OUT</p>

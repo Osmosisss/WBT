@@ -154,7 +154,6 @@
     z-index: 500;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
     position: relative;
     display: inline-block;
   }
@@ -173,7 +172,7 @@
   }
 
   .menu-toggle:hover {
-    cursor: pointer;
+    cursor: crosshair;
   }
 
   .mobile-nav ul {
@@ -191,12 +190,11 @@
   .mobile-nav {
     height: 730px;
     padding-top: 70px;
-    position: fixed;
-    overflow: hidden;
+    position: relative;
   }
 
   .mobile-one .mobile-nav {
-    position: absolute;
+    position: relative;
     background-color: black;
     width: 100vw;
     height: 100vh;
