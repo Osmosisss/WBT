@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1263px) {
   .team {
     width: 100vw;
-    height: auto;
+    height: 370px;
     background-color: #ffffff;
     font-family: $font-primary;
     padding: 44px;
@@ -90,8 +90,8 @@
     position: absolute;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: rotate(110deg) translateY(-50%);
-    transform: rotate(110deg) translateY(-50%);
+    -webkit-transform: rotate(100deg) translateY(-50%);
+    transform: rotate(100deg) translateY(-50%);
   }
 
   #figure.fig a {
@@ -139,6 +139,22 @@
   }
 }
 
+.us-box{
+  width: 100vw;
+  background: white;
+  padding-bottom: 20px;
+}
+
+.us-grid{
+  justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.text-1{
+  font-family: $font-primary;
+}
 // Medium Screen
 @media only screen and (min-width: 641px) and (max-width: 1263px) {
   .team {

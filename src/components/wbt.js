@@ -214,7 +214,7 @@ class WBT extends Component {
         {/* Team Section */}
 
         <Team />
-
+      
         {/* Spacer */}
 
         <div className="spacer" id="pfolio_link">
