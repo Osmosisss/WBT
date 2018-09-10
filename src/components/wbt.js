@@ -6,6 +6,16 @@ import Team from "./team";
 
 class WBT extends Component {
   render() {
+    $(document).on("click", 'a[href^="#"]', function(event) {
+      event.preventDefault();
+
+      $("html, body").animate(
+        {
+          scrollTop: $($.attr(this, "href")).offset().top
+        },
+        500
+      );
+    });
     // Nav Component
 
     $(document).ready(function() {
@@ -146,7 +156,7 @@ class WBT extends Component {
           </div>
 
           <div className="hero-gif">
-            <a id="techno_link">
+            <a>
               <img
                 className="arrow-scroll"
                 src="/assets/arrow.gif"
@@ -158,7 +168,7 @@ class WBT extends Component {
 
         {/* Technology Section */}
 
-        <div className="techno-grid tech">
+        <div className="techno-grid tech" id="techno_link">
           <div className="techno-box">
             <img src="assets/smartphone.png" />
             <h1>RESPONSIVE WEBDESIGN</h1>
@@ -204,8 +214,8 @@ class WBT extends Component {
 
         {/* Spacer */}
 
-        <div className="spacer" id="team_link">
-          <div className="spacer-text">
+        <div className="spacer">
+          <div className="spacer-text" id="team_link">
             <h1>TEAM</h1>
             <h2>MEET THE TEAM</h2>
           </div>
@@ -249,7 +259,7 @@ class WBT extends Component {
 
         {/* Spacer */}
 
-        <div className="spacer">
+        <div className="spacer" id="contact_link">
           <div className="spacer-text">
             <h1>CONTACT</h1>
             <h2>FEEL FREE TO REACH OUT</h2>
