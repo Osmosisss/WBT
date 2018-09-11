@@ -1,6 +1,5 @@
 @media only screen and (min-width: 1263px) {
   .hero {
-    height: 790px;
     width: 100vw;
     display: block;
   }
@@ -10,7 +9,7 @@
     height: 720px;
     width: 100vw;
     text-align: center;
-    padding: 180px 100px 10px 100px;
+    padding: 12% 7% 1% 7%;
   }
 
   .hero-logo img {
@@ -21,12 +20,13 @@
   }
 
   .hero-gif {
-    position: relative;
     text-align: center;
-    padding-top: 595px;
+    position: relative;
+    padding-top: 44%;
   }
 
   .hero-gif img {
+    text-align: center;
     height: 200px;
     width: 220px;
   }
@@ -45,10 +45,14 @@
     position: absolute;
     width: 100vw;
     text-align: center;
-    padding: 180px 100px 10px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13% 7% 1% 7%;
   }
 
   .hero-logo img {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 55px;
     position: relative;
     height: 222px;
@@ -56,16 +60,19 @@
   }
 
   .hero-gif {
-    position: absolute;
-    text-align: center;
-    padding-top: 125px;
+    position: relative;
+    padding-top: 47%;
+    height: 100px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-gif img {
     position: absolute;
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 180px;
   }
 }
 
@@ -76,6 +83,7 @@
   }
 
   .mobile-hero {
+    display: block;
     height: auto;
     width: 100vw;
     top: 39%;
@@ -83,7 +91,7 @@
   }
 
   .mobile-hero-grid {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     display: block;
     margin-left: auto;
@@ -91,14 +99,25 @@
   }
 
   .mobile-hero-logo img {
+    height: 100%;
     width: 100%;
     position: relative;
   }
 
+  .mobile-hero-scroll {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+  }
+
   .mobile-hero-scroll img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20%;
     width: 200px;
     height: 200px;
   }

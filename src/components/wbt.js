@@ -6,6 +6,16 @@ import Team from "./team";
 
 class WBT extends Component {
   render() {
+    // Screen Size Finder
+    $(function() {
+      $(".hero").css({ height: $(window).height() });
+
+      $(window).bind("resize", function() {
+        $(".hero").css({ height: $(window).height() });
+      });
+    });
+    // Screen Size Finder
+    // Nav Component
     $(document).on("click", 'a[href^="#"]', function(event) {
       event.preventDefault();
 
@@ -257,7 +267,7 @@ class WBT extends Component {
 
         {/* Spacer */}
 
-        <div className="spacer" id="contact_link">
+        <div className="spacer">
           <div className="spacer-text">
             <h1>CONTACT</h1>
             <h2>FEEL FREE TO REACH OUT</h2>
@@ -265,7 +275,7 @@ class WBT extends Component {
         </div>
 
         {/* Contact Section */}
-
+        <div id="contact_link" />
         <Form />
 
         {/* Spacer */}

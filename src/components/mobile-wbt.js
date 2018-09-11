@@ -4,6 +4,15 @@ import $ from "jquery";
 
 class Mobile extends Component {
   render() {
+    // Screen Size Finder
+    $(function() {
+      $(".mobile").css({ height: $(window).height() });
+
+      $(window).bind("resize", function() {
+        $(".mobile").css({ height: $(window).height() });
+      });
+    });
+    // Screen Size Finder
     //Nav Component
     $(document).ready(function() {
       var menu = "close";
@@ -138,12 +147,12 @@ class Mobile extends Component {
             <div className="mobile-team-content team-content-1">
               <img src="assets/chris.jpg" alt="Christian Cosio" />
               <h4>Christian Cosio</h4>
-              <p>Strategy Director</p>
+              <p>Founder & Strategy Director</p>
             </div>
             <div className="mobile-team-content team-content-1">
               <img src="assets/ozzy.jpg" alt="Oswaldo Ortiz" />
               <h4>Oswaldo Ortiz</h4>
-              <p>Creative Director</p>
+              <p>Co-founder & Creative Director</p>
             </div>
           </div>
         </div>

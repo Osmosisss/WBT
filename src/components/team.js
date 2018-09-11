@@ -23,8 +23,8 @@ class Team extends Component {
         </div>
         <div className="us-box">
           <div className="us-grid">
-            <h7 className="text-1">Strategy Director</h7>
-            <h7 className="text-1">Creative Director</h7>
+            <h6 className="text-1">Founder & Strategy Director</h6>
+            <h6 className="text-1">Co-founder & Creative Director</h6>
           </div>
         </div>
       </div>

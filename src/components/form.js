@@ -107,7 +107,7 @@ class Form extends Component {
     google.maps.event.addDomListener(window, "load", initialize);
     return (
       <div className="form">
-        <form className="form" action="/contact.php">
+        <form action="/contact.php">
           <div className="form-grid">
             <div className="form-name">
               <label for="name">Name</label>
