@@ -9,9 +9,11 @@ class WBT extends Component {
     // Screen Size Finder
     $(function() {
       $(".hero").css({ height: $(window).height() });
+      $(".hero-logo").css({ height: $(window).height() });
 
       $(window).bind("resize", function() {
         $(".hero").css({ height: $(window).height() });
+        $(".hero-logo").css({ height: $(window).height() });
       });
     });
     // Screen Size Finder
@@ -146,7 +148,7 @@ class WBT extends Component {
 
         <div className="hero">
           <div className="hero-logo">
-            <img src="/assets/wbt_logo.png" alt="WBT" />
+            <img src="/assets/wbt_logo.png" alt="WBT" id="hero-logo-wbt" />
 
             {/* JS Text */}
 
@@ -163,9 +165,6 @@ class WBT extends Component {
                 />
               </h1>
             </div>
-          </div>
-
-          <div className="hero-gif">
             <img
               className="arrow-scroll"
               src="/assets/arrow.gif"

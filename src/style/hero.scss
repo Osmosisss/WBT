@@ -5,74 +5,53 @@
   }
 
   .hero-logo {
-    position: absolute;
-    height: 720px;
+    display: block;
+    position: relative;
     width: 100vw;
     text-align: center;
     padding: 12% 7% 1% 7%;
   }
 
-  .hero-logo img {
-    margin-top: 111px;
+  #hero-logo-wbt {
+    margin-top: 5%;
     position: relative;
-    height: 222px;
+    height: 40%;
     text-align: center;
   }
 
-  .hero-gif {
+  .arrow-scroll {
     text-align: center;
-    position: relative;
-    padding-top: 44%;
-  }
-
-  .hero-gif img {
-    text-align: center;
-    height: 200px;
-    width: 220px;
+    height: 40%;
+    width: 20%;
   }
 }
 
 // Medium Screen
 @media only screen and (min-width: 641px) and (max-width: 1263px) {
   .hero {
-    height: 720px;
     width: 100vw;
     display: block;
-    position: relative;
   }
 
   .hero-logo {
-    position: absolute;
+    display: block;
+    position: relative;
     width: 100vw;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 13% 7% 1% 7%;
+    padding: 30% 7% 1% 7%;
   }
 
-  .hero-logo img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 55px;
+  #hero-logo-wbt {
+    margin-top: 5%;
     position: relative;
-    height: 222px;
+    height: 40%;
     text-align: center;
   }
 
-  .hero-gif {
-    position: relative;
-    padding-top: 47%;
-    height: 100px;
-    width: 180px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .hero-gif img {
-    position: absolute;
+  .arrow-scroll {
     text-align: center;
-    width: 100%;
-    height: 180px;
+    height: 40%;
+    width: 40%;
   }
 }
 
