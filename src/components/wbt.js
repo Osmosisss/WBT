@@ -156,13 +156,11 @@ class WBT extends Component {
           </div>
 
           <div className="hero-gif">
-            <a>
-              <img
-                className="arrow-scroll"
-                src="/assets/arrow.gif"
-                alt="Scroll Down"
-              />
-            </a>
+            <img
+              className="arrow-scroll"
+              src="/assets/arrow.gif"
+              alt="Scroll Down"
+            />
           </div>
         </div>
 
@@ -214,8 +212,8 @@ class WBT extends Component {
 
         {/* Spacer */}
 
-        <div className="spacer">
-          <div className="spacer-text" id="team_link">
+        <div className="spacer" id="team_link">
+          <div className="spacer-text">
             <h1>TEAM</h1>
             <h2>MEET THE TEAM</h2>
           </div>
@@ -224,7 +222,7 @@ class WBT extends Component {
         {/* Team Section */}
 
         <Team />
-      
+
         {/* Spacer */}
 
         <div className="spacer" id="pfolio_link">

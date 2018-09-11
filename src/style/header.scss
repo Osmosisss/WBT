@@ -27,7 +27,9 @@
     -o-transition: all 3s ease-in-out;
     opacity: 0;
     height: 70px;
-    width: 140px;
+    width: auto;
+    margin-left: 22px;
+    float: left;
   }
 
   .header-links {
@@ -98,9 +100,10 @@
     -webkit-transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
     -o-transition: all 3s ease-in-out;
+    margin-left: 100px;
     opacity: 0;
     height: 70px;
-    width: 140px;
+    width: 150px;
   }
 
   .header-links {

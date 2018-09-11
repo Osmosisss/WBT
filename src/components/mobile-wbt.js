@@ -74,8 +74,8 @@ class Mobile extends Component {
 
         {/* Technology Section */}
 
-        <div className="mobile-techno" id="technology">
-          <div className="mobile-techno-grid">
+        <div className="mobile-techno">
+          <div className="mobile-techno-grid" id="technology">
             <div id="mobile-tech-1" className="mobile-tech">
               <img src="assets/smartphone.png" />
               <h1>RESPONSIVE WEBDESIGN</h1>
@@ -124,7 +124,7 @@ class Mobile extends Component {
 
         {/* Spacer */}
 
-        <div className="mobile-spacer" id="team">
+        <div className="mobile-spacer">
           <div className="mobile-spacer-content">
             <h1>TEAM</h1>
             <p>MEET THE TEAM</p>
@@ -133,17 +133,17 @@ class Mobile extends Component {
 
         {/* Team Section */}
 
-        <div className="mobile-team">
+        <div className="mobile-team" id="team">
           <div className="mobile-team-grid">
             <div className="mobile-team-content team-content-1">
               <img src="assets/chris.jpg" alt="Christian Cosio" />
               <h4>Christian Cosio</h4>
-              <p>Founder & Sales Director</p>
+              <p>Strategy Director</p>
             </div>
             <div className="mobile-team-content team-content-1">
               <img src="assets/ozzy.jpg" alt="Oswaldo Ortiz" />
               <h4>Oswaldo Ortiz</h4>
-              <p>Co-Founder & Lead Programmer</p>
+              <p>Creative Director</p>
             </div>
           </div>
         </div>

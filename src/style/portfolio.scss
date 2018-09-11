@@ -130,8 +130,10 @@
     justify-content: center;
     align-items: center;
     img {
+      border: 3px solid rgb(22, 22, 22);
       max-width: 100%;
       height: auto;
+      width: auto;
     }
   }
 
@@ -142,7 +144,7 @@
     justify-content: center;
     align-items: center;
     width: 10px;
-    height: 90%;
+    height: 55%;
     background: whitesmoke;
     color: #151e3f;
     -o-transition: all 0.9s ease;
@@ -231,6 +233,7 @@
     img {
       max-width: 100%;
       height: auto;
+      border: 3px solid rgb(22, 22, 22);
     }
   }
 
@@ -241,7 +244,7 @@
     justify-content: center;
     align-items: center;
     width: 10px;
-    height: 100%;
+    height: 55%;
     background: whitesmoke;
     color: #151e3f;
     -o-transition: all 0.9s ease;
@@ -270,7 +273,7 @@
 
   .mobile-portfolio-media:hover .mobile-portfolio-layer {
     opacity: 0.8;
-    width: 100%;
+    width: 90%;
 
     -o-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
