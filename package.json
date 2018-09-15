@@ -1,6 +1,6 @@
 {
-  "name": "react-redux",
-  "version": "1.0.0",
+  "name": "wbt",
+  "version": "0.1.0",
   "description": "Basic skeleton codebase for React/Redux applications.",
   "scripts": {
     "postinstall": "cp env.example.js env.js",
@@ -12,25 +12,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bottega-code-school/js-builder.git"
+    "url": "https://github.com/Osmosisss/WBT"
   },
   "keywords": [
-    "es6",
-    "es7",
+    "Webbuilderteam",
+    "OswaldoOrtiz",
+    "ChristianCosio",
     "webpack2",
     "webpack3",
     "starter",
-    "template",
+    "jQuery",
     "postcss",
     "sass",
     "css module"
   ],
-  "author": "Your Name Here",
+  "author": "Oswaldo Ortiz & Christian Cosio",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bottega-code-school/js-builder/issues"
+    "url": "https://github.com/Christian8D"
   },
-  "homepage": "https://github.com/bottega-code-school/js-builder",
+  "homepage": "https://github.com/Osmosisss/WBT",
   "devDependencies": {
     "webpack-dev-server": "^2.5.1"
   },
@@ -73,5 +74,6 @@
     "url-loader": "^0.5.9",
     "webpack": "^3.1.0",
     "webpack-merge": "^4.1.0"
-  }
+  },
+  "main": "WBT"
 }
