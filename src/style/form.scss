@@ -6,6 +6,7 @@
     font-family: $font-primary;
     display: grid;
     grid-template-columns: 50% 50%;
+    @include shadow;
   }
 
   .form-grid {
@@ -66,6 +67,7 @@
     margin-right: auto;
     margin-bottom: auto;
     border: 1px solid #ced4da;
+    @include shadow;
   }
 
   textarea:focus,
@@ -83,6 +85,7 @@
     font-family: $font-primary;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    @include shadow;
   }
 
   .form-grid {
@@ -165,6 +168,7 @@
     width: 100vw;
     height: 566px;
     padding: 10px;
+    @include shadow;
   }
 
   .form-float-left {

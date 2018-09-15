@@ -5,6 +5,7 @@
     background-color: #ffffff;
     font-family: $font-primary;
     padding: 44px;
+    @include shadow;
   }
 
   .team-grid {
@@ -22,6 +23,7 @@
 
   #figure {
     justify-self: center;
+    @include shadow;
   }
 
   #figure.fig {
@@ -156,6 +158,7 @@
 
 .text-1 {
   font-family: $font-primary;
+  color: rgb(36, 36, 36);
 }
 // Medium Screen
 @media only screen and (min-width: 641px) and (max-width: 1263px) {
@@ -165,6 +168,7 @@
     background-color: #ffffff;
     font-family: $font-primary;
     padding: 44px;
+    @include shadow;
   }
 
   .team-grid {
@@ -298,6 +302,18 @@
     -webkit-transform: rotate(110deg) translateY(-150%);
     transform: rotate(110deg) translateY(-150%);
   }
+
+  .us-grid {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .text-1 {
+    font-family: $font-primary;
+    color: rgb(36, 36, 36);
+  }
 }
 
 // Mobile Screen
@@ -311,6 +327,7 @@
     height: 680px;
     background-color: #ffffff;
     padding: 7%;
+    @include shadow;
   }
 
   .mobile-team-grid {
@@ -337,7 +354,7 @@
   .mobile-team-content h4 {
     font-weight: 300;
     margin-top: 22px;
-    color: rgb(22, 22, 22);
+    color: rgb(36, 36, 36);
   }
 
   .mobile-team-content p {

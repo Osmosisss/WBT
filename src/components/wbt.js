@@ -41,12 +41,11 @@ class WBT extends Component {
         if (scroll_start > offset.top) {
           $(".header").css("background-color", "#000000");
           $(".header").css("opacity", ".85");
-          $(".header").css("color", "white");
+          $(".linkk").css("color", "white");
           $(".header-logo img").css("opacity", "1");
           $(".header-logo img").css("width", "150px");
           $(".header-logo img").css("margin-left", "22px");
         } else {
-          $(".header").css("color", "white");
           $(".header").css("background-color", "transparent");
           $(".header-logo img").css("opacity", ".0");
         }

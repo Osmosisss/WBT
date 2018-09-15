@@ -6,6 +6,7 @@
     padding: 44px;
     position: relative;
     font-family: $font-primary;
+    @include shadow;
   }
 
   .portfolio-wrapper {
@@ -105,6 +106,7 @@
     padding: 50px;
     position: relative;
     font-family: $font-primary;
+    @include shadow;
   }
 
   .portfolio-wrapper {
@@ -209,6 +211,7 @@
     padding: 33px;
     position: relative;
     font-family: $font-primary;
+    @include shadow;
   }
 
   .mobile-portfolio-wrapper {
